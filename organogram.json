@@ -1,0 +1,104 @@
+{
+    "designation": "Director General Mines & Minerals",
+    "shortform": "DGMM",
+    "scale": "BS-20",
+    "posting": "Head Quarters",
+    "children": [
+        {
+            "designation": "Director Small Mines Assistance / Titles",
+            "shortform": "Director SMA/T",
+            "other_names": [
+                "LA Small Scale Mining"
+            ],
+            "scale": "BS-19",
+            "posting": "Head Quarters",
+            "color": "red",
+            "children": []
+        },
+        {
+            "designation": "Director Administration",
+            "shortform": "Director Admin",
+            "other_names": [],
+            "scale": "BS-19",
+            "posting": "Head Quarters",
+            "children": []
+        },
+        {
+            "designation": "Director Minor Mineral",
+            "shortform": "Director MM",
+            "other_names": [
+                "Licensing Authority Minor Mineral",
+                "Licensing Authority Minor Mineral",
+            ],
+            "scale": "BS-19",
+            "posting": "Head Quarters",
+            "children": [
+                {
+                "designation": "Deputy Director Lahore Region",
+                "shortform": "DD(LHR)",
+                "scale": "Bs-18",
+                "posting": "Lahore Region",
+                "childern": [ 
+                    {
+                        "designation": "Assistant Director Lahore Region",
+                        "shortform": "AD(LHR)",
+                        "scale": "Bs-17",
+                        "posting": "Lahore Region",
+                        "childern": [
+                            {
+                                "designation": "Suprintendent Lahore Region",
+                                "shortform": "Suprintendent LHR",
+                                "scale": "BS-17",
+                                "posting": "Lahore Region",
+                                "children": [
+                                    {
+                                        "designation": "Assistant Lahore Region",
+                                        "shortform": "Assistant(LHR)",
+                                        "scale": "BS-16",
+                                        "posting": "Lahore Region",
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ] 
+                    }
+                ]
+                }        ]
+        },
+        {
+            "designation": "Director Environmental Facilitation & Infrastructure Development",
+            "shortform": "Director EF&ID",
+            "other_names": [],
+            "scale": "BS-19",
+            "posting": "Head Quarters",
+            "children": [
+                {
+                    "designation": "Manager Environmental Facilitation",
+                    "shortform": "Manager EF",
+                    "other_names": [],
+                    "scale": "BS-18",
+                    "posting": "Head Quarters",
+                    "children": [
+                        {
+                            "designation": "Deputy Manager Environmental Facilitation",
+                            "shortform": "Deputy Manager EF",
+                            "other_names": [],
+                            "scale": "BS-17",
+                            "posting": "Head Quarters",
+                            "children": [   
+                                {
+                                    "designation": "Suprintendent Environmental Facilitation",
+                                    "shortform": "Suprintendent EF",
+                                    "other_names": [],
+                                    "scale": "BS-17",
+                                    "posting": "Head Quarters",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
