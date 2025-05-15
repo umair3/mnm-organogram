@@ -11,8 +11,16 @@
                     "posting": "Head Quarters",
                     "subordinates": []
            },
+                       
+           { 
+                    "designation": "Suprintendent Receipt and Issue",
+                    "shortform": "Suprintendent(R&I)",
+                    "scale": "BS-17",
+                    "posting": "Head Quarters",
+                    "subordinates": []
+           },
 
-            {
+        {
 
         "designation": "Director Resource Mapping| Director RMD",
         "scale": "BS-19",
@@ -146,7 +154,9 @@
           }
 
         ]
-      },       {
+      },       
+      
+      {
 
         "designation": "Director Information Promotion & Service ",
         "scale": "BS-19",
@@ -158,7 +168,7 @@
             "posting": "Head Quarters",
             "subordinates": [         
               
-            {
+          {
             "designation": "Computer Programmer",
             "scale": "Bs-17",
             "posting": "Head Quarters",
