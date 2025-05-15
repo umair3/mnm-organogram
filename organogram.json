@@ -3,127 +3,323 @@
     "scale": "BS-20",
     "posting": "Head Quarters",
     "subordinates": [
-      {
-        "designation": "Director Small Mines Assistance / Titles | Director SMA/T | LA Small Scale Mining",
+
+            { 
+                    "designation": "Personal Assistant to Director General ",
+                    "shortform": "PA(DG)",
+                    "scale": "BS-16",
+                    "posting": "Head Quarters",
+                    "subordinates": []
+           },
+
+            {
+
+        "designation": "Director Resource Mapping| Director RMD",
         "scale": "BS-19",
         "posting": "Head Quarters",
         "subordinates": [
           {
-            "designation": "Personal Assistant to Director ",
-            "shortform": "PA(Director SMA/T)",
-            "scale": "BS-16",
+            "designation": "Manager CS",
+            "scale": "Bs-18",
             "posting": "Head Quarters",
-            "subordinates": []
+            "subordinates": [       
+                {
+                    "designation": "Deputy Manager CS",
+                    "scale": "Bs-17",
+                    "posting": "Head Quarters",
+                    "subordinates": []
+                }]
           },
-              {
-                "designation": "Deputy Director AUCTION HQ",
-                "shortform": "DD(AUCTION)",
-                "scale": "Bs-18",
-                "posting": "Head Quarters",
-                "subordinates": [       
-                
+                   {
+            "designation": "Manager GM",
+            "scale": "Bs-18",
+            "posting": "Head Quarters",
+            "subordinates": [       
                 {
-                  "designation": "Assistant Director AUCTION HQ",
-                  "shortform": "AD(AUCTION)",
-                  "scale": "Bs-17",
-                  "posting": "Head Quarters",
-                
-                  "subordinates": [
-                  {
-                    "designation": "Suprintendent AUCTION",
-                    "shortform": "Suprintendent(AUCTION)",
+                    "designation": "Deputy Manager GM",
                     "scale": "Bs-17",
                     "posting": "Head Quarters",
                     "subordinates": []
+                }]
+                },
+                     {
+                    "designation": "Manager GP",
+                    "scale": "Bs-18",
+                    "posting": "Head Quarters",
+                    "subordinates": [       
+                        {
+                            "designation": "Deputy Manager GP",
+                            "scale": "Bs-17",
+                            "posting": "Head Quarters",
+                            "subordinates": []
+                          }]
+                  }, 
+                  {
+                        "designation": "Manager GC",
+                        "scale": "Bs-18",
+                        "posting": "Head Quarters",
+                        "subordinates": [       
+                      {
+                            "designation": "Deputy Manager GC",
+                            "scale": "Bs-17",
+                            "posting": "Head Quarters",
+                            "subordinates": []
+                }]
+                }, 
+                  {
+                    "designation": "Manager BS",
+                    "scale": "Bs-18",
+                    "posting": "Head Quarters",
+                    "subordinates": [       
+                        {
+                        "designation": "Deputy Manager BS",
+                        "scale": "Bs-17",
+                        "posting": "Head Quarters",
+                        "subordinates": []
+                }]
+                  },
+                  {
+                    "designation": "Assistant Engineer Mechnical",
+                    "scale": "Bs-17",
+                    "posting": "Head Quarters",
+                    "subordinates": []  
+                  },
+                  {
+                    "designation": "Assistant Engineer Electrical",
+                    "scale": "Bs-17",
+                    "posting": "Head Quarters",
+                    "subordinates": []  
                   }
-                ]
-                }
-              ]
-              },
+        ]
+      },
+       {
 
-              {
-                "designation": "Deputy Director HEADQUARTER",
-                "shortform": "DD(HQR)",
-                "scale": "Bs-18",
-                "posting": "Head Quarters",
-                "subordinates":[         
-                
-                {
-                  "designation": "Assistant Director HEADQUARTER",
-                  "shortform": "AD(HQ)",
-                  "scale": "Bs-17",
-                  "posting": "Head Quarters",
-                
-                  "subordinates": [
-                  {
-                    "designation": "Suprintendent HEADQUARTER",
-                    "shortform": "Suprintendent(HQ)",
-                    "scale": "Bs-17",
-                    "posting": "Head Quarters",
-                    "subordinates": []
-                  }
-                ]
-                }
+        "designation": "Director GIS",
+        "scale": "BS-19",
+        "posting": "Head Quarters",
+        "subordinates": [
+          {
+            "designation": "Manager GIS",
+            "scale": "Bs-18",
+            "posting": "Head Quarters",
+            "subordinates": [         
               
-              ]
-              },
+            {
+            "designation": "Computer Programmer",
+            "scale": "Bs-17",
+            "posting": "Head Quarters",
+            "subordinates":[]
+          },
+          {
+            "designation": "GIS Development Officer 1",
+            "scale": "Bs-17",
+            "posting": "Head Quarters",
+            "subordinates":[]
+          },
+          {
+            "designation": "GIS Development Officer 2",
+            "scale": "Bs-17",
+            "posting": "Head Quarters",
+            "subordinates":[]
+          },
+          {
+            "designation": "GIS Development Officer 3",
+            "scale": "Bs-17",
+            "posting": "Head Quarters",
+            "subordinates":[]
+          },
 
-              {
-                "designation": "Deputy Director Mining LEASE 1 HQ",
-                "shortform": "DD(ML1)",
-                "scale": "Bs-18",
-                "posting": "Head Quarters",
-                "subordinates":[                
-                
-                {
-                  "designation": "Assistant Director Mining LEASE 1 HQ",
-                  "shortform": "AD(ML1)",
-                  "scale": "Bs-17",
-                  "posting": "Head Quarters",
-                
-                  "subordinates": [
-                  {
-                    "designation": "Suprintendent Mining LEASE 1 HQ",
-                    "shortform": "Suprintendent(ML1)",
-                    "scale": "Bs-17",
+          {
+            "designation": "GIS Development Officer 4",
+            "scale": "Bs-17",
+            "posting": "Head Quarters",
+            "subordinates":[]
+          },
+          {
+            "designation": "GIS Development Officer 5",
+            "scale": "Bs-17",
+            "posting": "Head Quarters",
+            "subordinates":[]
+          }
+        
+        ]
+          }
+
+        ]
+      },       {
+
+        "designation": "Director Information Promotion & Service ",
+        "scale": "BS-19",
+        "posting": "Head Quarters",
+        "subordinates": [
+          {
+            "designation": "Manager Information Technology| Manger IT",
+            "scale": "Bs-18",
+            "posting": "Head Quarters",
+            "subordinates": [         
+              
+            {
+            "designation": "Computer Programmer",
+            "scale": "Bs-17",
+            "posting": "Head Quarters",
+            "subordinates":[]
+          },
+          {
+            "designation": "Network Administrator",
+            "scale": "Bs-17",
+            "posting": "Head Quarters",
+            "subordinates":[]
+          },
+          {
+            "designation": "Database Administrator",
+            "scale": "Bs-17",
+            "posting": "Head Quarters",
+            "subordinates":[]
+          },
+          {
+            "designation": "Hardware Technician",
+            "scale": "Bs-17",
+            "posting": "Head Quarters",
+            "subordinates":[]
+          },
+
+          {
+            "designation": "Librarian",
+            "scale": "Bs-17",
+            "posting": "Head Quarters",
+            "subordinates":[]
+          }
+        
+        ]
+          }
+
+        ]
+      },
+
+   {
+        "designation": "Director Small Mines Assistance / Titles | Director SMA/T | LA Small Scale Mining",
+        "scale": "BS-19",
+        "posting": "Head Quarters",
+        "subordinates": 
+        [
+                   { 
+                    "designation": "Personal Assistant to Director ",
+                    "shortform": "PA(Director SMA/T)",
+                    "scale": "BS-16",
                     "posting": "Head Quarters",
                     "subordinates": []
-                  }
-                ]
-                }]
-              },
+                    },
 
-              {
-                "designation": "Deputy Director Mining LEASE 2 HQ",
-                "shortform": "DD(ML2)",
-                "scale": "Bs-18",
-                "posting": "Head Quarters",
-                "subordinates":[          
-                  
-                {
-                  "designation": "Assistant Director Mining Lease 2 HQ",
-                  "shortform": "AD(ML2)",
-                  "scale": "Bs-17",
-                  "posting": "Head Quarters",
-                
-                  "subordinates": [
-                  {
-                    "designation": "Suprintendent Mining LEASE 2 HQ",
-                    "shortform": "Suprintendent(ML2)",
-                    "scale": "Bs-17",
-                    "posting": "Head Quarters",
-                    "subordinates": []
-                  }
-                ]
-                }]
-              },
+                    {
+                      "designation": "Deputy Director AUCTION HQ",
+                      "shortform": "DD(AUCTION)",
+                      "scale": "Bs-18",
+                      "posting": "Head Quarters",
+                      "subordinates": [       
+                      
+                     {
+                        "designation": "Assistant Director AUCTION HQ",
+                        "shortform": "AD(AUCTION)",
+                        "scale": "Bs-17",
+                        "posting": "Head Quarters",
+                      
+                        "subordinates": [
+                        {
+                          "designation": "Suprintendent AUCTION HQ",
+                          "shortform": "Suprintendent(AUCTION)",
+                          "scale": "Bs-17",
+                          "posting": "Head Quarters",
+                          "subordinates": []
+                        }
+                      ]
+                      }
+                    ]
+                    },
+
+                      {
+                        "designation": "Deputy Director HEADQUARTER",
+                        "shortform": "DD(HQR)",
+                        "scale": "Bs-18",
+                        "posting": "Head Quarters",
+                        "subordinates":[         
+                        
+                        {
+                          "designation": "Assistant Director HEADQUARTER",
+                          "shortform": "AD(HQ)",
+                          "scale": "Bs-17",
+                          "posting": "Head Quarters",
+                        
+                          "subordinates": [
+                          {
+                            "designation": "Suprintendent HEADQUARTER",
+                            "shortform": "Suprintendent(HQ)",
+                            "scale": "Bs-17",
+                            "posting": "Head Quarters",
+                            "subordinates": []
+                          }
+                        ]
+                        }
+                      
+                      ]
+                      },
+
+                      {
+                        "designation": "Deputy Director Mining Lease 1 HQ",
+                        "shortform": "DD(ML1)",
+                        "scale": "Bs-18",
+                        "posting": "Head Quarters",
+                        "subordinates":[                
+                        
+                        {
+                          "designation": "Assistant Director Mining LEASE 1 HQ",
+                          "shortform": "AD(ML1)",
+                          "scale": "Bs-17",
+                          "posting": "Head Quarters",
+                        
+                          "subordinates": [
+                          {
+                            "designation": "Suprintendent Mining Lease 1 HQ",
+                            "shortform": "Suprintendent(ML1)",
+                            "scale": "Bs-17",
+                            "posting": "Head Quarters",
+                            "subordinates": []
+                          }
+                        ]
+                        }]
+                      },
+
+                      {
+                        "designation": "Deputy Director Mining Lease 2 HQ",
+                        "shortform": "DD(ML2)",
+                        "scale": "Bs-18",
+                        "posting": "Head Quarters",
+                        "subordinates":[          
+                          
+                        {
+                          "designation": "Assistant Director Mining Lease 2 HQ",
+                          "shortform": "AD(ML2)",
+                          "scale": "Bs-17",
+                          "posting": "Head Quarters",
+                        
+                          "subordinates": [
+                          {
+                            "designation": "Suprintendent Mining Lease 2 HQ",
+                            "shortform": "Suprintendent(ML2)",
+                            "scale": "Bs-17",
+                            "posting": "Head Quarters",
+                            "subordinates": []
+                          }
+                        ]
+                        }]
+                      },
 
               {
                 "designation": "Deputy Director Prospecting License HQ",
                 "shortform": "DD(PL)",
                 "scale": "Bs-18",
                 "posting": "Head Quarters",
-                "subordinates":[                {
+                "subordinates":[                
+                {
                   "designation": "Assistant Director Prospecting License HQ",
                   "shortform": "AD(PL)",
                   "scale": "Bs-17",
@@ -131,14 +327,15 @@
                 
                   "subordinates": [
                   {
-                    "designation": "Suprintendent Prospecting License",
+                    "designation": "Suprintendent Prospecting License HQ",
                     "shortform": "Suprintendent(PL)",
                     "scale": "Bs-17",
                     "posting": "Head Quarters",
                     "subordinates": []
                   }
                 ]
-                }]
+                }
+              ]
               },
               {
                 "designation": "Deputy Director Mining Consession HQ",
@@ -165,13 +362,13 @@
                 ]
               },
               {
-                "designation": "Deputy Director CHAKWAL ",
+                "designation": "Deputy Director CHAKWAL",
                 "shortform": "DD(CKL)",
                 "scale": "Bs-18",
                 "posting": "Chakwal",
                 "subordinates":[
                   {
-                    "designation": "Assistant Director Chakwal HQ",
+                    "designation": "Assistant Director Chakwal",
                     "shortform": "AD(CKL)",
                     "scale": "Bs-17",
                     "posting": "Chakwal",
@@ -195,7 +392,7 @@
                 "posting": "Mianwali",
                 "subordinates":[            
                     
-              {
+               {
                   "designation": "Assistant Director MIANWALI HQ",
                   "shortform": "AD(MLI)",
                   "scale": "Bs-17",
@@ -205,6 +402,14 @@
                   {
                     "designation": "Suprintendent MIANWALI",
                     "shortform": "Suprintendent(MLI)",
+                    "scale": "Bs-17",
+                    "posting": "Mianwali",
+                    "subordinates": []
+                  },
+                                    
+                  {
+                    "designation": "Geologist MIANWALI",
+                    "shortform": "Geologist(MIANWALI)",
                     "scale": "Bs-17",
                     "posting": "Mianwali",
                     "subordinates": []
@@ -235,25 +440,24 @@
                     "scale": "Bs-17",
                     "posting": "khushab",
                     "subordinates": []
+                  },
+                  
+                  {
+                    "designation": "Geologist KHUSHAB",
+                    "shortform": "Geologist(KHB)",
+                    "scale": "Bs-17",
+                    "posting": "khushab",
+                    "subordinates": []
                   }
                 ]
                 }
               ]
-              }
+          ]
+        },
+          
+       {
 
-            ]
-          }
-
-        ]
-      },
-      {
         "designation": "Director Administration | Director Admin",
-        "scale": "BS-19",
-        "posting": "Head Quarters",
-        "subordinates": []
-      },
-      {
-        "designation": "Director Minor Mineral | Director MM | Licensing Authority Minor Mineral | LA Minor Mineral",
         "scale": "BS-19",
         "posting": "Head Quarters",
         "subordinates": [
@@ -302,6 +506,33 @@
 
         ]
       },
+            {
+        "designation": "Director Environmental Facilitation & Infrastructure Development | Director EF&ID",
+        "scale": "BS-19",
+        "posting": "Head Quarters",
+        "subordinates": [
+          {
+            "designation": "Manager Environmental Facilitation | Manager EF",
+            "scale": "BS-18",
+            "posting": "Head Quarters",
+            "subordinates": [
+              {
+                "designation": "Deputy Manager Environmental Facilitation | Deputy Manager EF",
+                "scale": "BS-17",
+                "posting": "Head Quarters",
+                "subordinates": [
+                  {
+                    "designation": "Suprintendent Environmental Facilitation | Suprintendent EF",
+                    "scale": "BS-17",
+                    "posting": "Head Quarters",
+                    "subordinates": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },  
 
       {
         "designation": "Director Minor Mineral | Licensing Authority Minor Mineral | Director MM | LA Minor Mineral",
@@ -338,7 +569,9 @@
                   ]
                 }
               ]
-            },{
+            },
+            
+            {
               "designation": "Deputy Director DG KHAN",
               "shortform": "DD(DGK)",
               "scale": "Bs-18",
@@ -662,37 +895,60 @@
                 ]
               }
             ]
-          },
-          
+          }
         
-        
-      {
-        "designation": "Director Environmental Facilitation & Infrastructure Development | Director EF&ID",
-        "scale": "BS-19",
-        "posting": "Head Quarters",
-        "subordinates": [
-          {
-            "designation": "Manager Environmental Facilitation | Manager EF",
-            "scale": "BS-18",
-            "posting": "Head Quarters",
-            "subordinates": [
-              {
-                "designation": "Deputy Manager Environmental Facilitation | Deputy Manager EF",
-                "scale": "BS-17",
-                "posting": "Head Quarters",
-                "subordinates": [
-                  {
-                    "designation": "Suprintendent Environmental Facilitation | Suprintendent EF",
-                    "scale": "BS-17",
-                    "posting": "Head Quarters",
-                    "subordinates": []
+    ]
+     },
+       {
+                      "designation": "Deputy Director Large Scale Mining",
+                      "shortform": "DD(LSM)",
+                      "scale": "Bs-18",
+                      "posting": "Head Quarters",
+                      "subordinates": [       
+                      
+                     {
+                        "designation": "Assistant Director EL",
+                        "shortform": "AD(EL)",
+                        "scale": "Bs-17",
+                        "posting": "Head Quarters",
+                      
+                        "subordinates": [
+                        {
+                          "designation": "Suprintendent LSM",
+                          "shortform": "Suprintendent(LSM)",
+                          "scale": "Bs-17",
+                          "posting": "Head Quarters",
+                          "subordinates": []
+                   }
+                 ]
+                 },
+                 {
+                        "designation": "Assistant Director ML",
+                        "shortform": "AD(ML)",
+                        "scale": "Bs-17",
+                        "posting": "Head Quarters",
+                        "subordinates": []
                   }
                 ]
-              }
-            ]
-          }
-        ]
-      }
-    ]
+        },
+                      
+      {
+                        "designation": "Assistant Director Appeal",
+                        "shortform": "AD(Appeal)",
+                        "scale": "Bs-17",
+                        "posting": "Head Quarters",
+                      
+                        "subordinates": [
+                        {
+                          "designation": "Suprintendent Appeal",
+                          "shortform": "Suprintendent(Appeal)",
+                          "scale": "Bs-17",
+                          "posting": "Head Quarters",
+                          "subordinates": []
+                        }
+                 ]
+        }
+
   }
+
 
