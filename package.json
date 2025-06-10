@@ -1,0 +1,14 @@
+{
+  "name": "organogram",
+  "version": "1.0.0",
+  "description": "The editor for diagram is https://jsoncrack.com/editor",
+  "main": "index.js",
+  "scripts": {
+    "build:ts": "tsc --watch",
+    "build:css": "tailwindcss -i ./styles/tailwind.css -o ./dist/output.css --watch",
+    "start": "live-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
