@@ -857,10 +857,9 @@ const fullOrganogram = [
 ];
 function createNode(node) {
     const container = document.createElement('div');
-    container.className = 'border rounded-xl p-4 bg-white shadow-md m-2';
+    container.className = 'relative border rounded-xl p-4 bg-white shadow-md m-2';
     const title = document.createElement('div');
     title.className = 'font-bold text-blue-700';
-    // Include shortform if it exists
     const titleText = node.shortform
         ? `${node.designation} (${node.shortform}) (${node.scale})`
         : `${node.designation} (${node.scale})`;
@@ -870,9 +869,13 @@ function createNode(node) {
     posting.textContent = `Posting: ${node.posting}`;
     container.appendChild(title);
     container.appendChild(posting);
-    if (Array.isArray(node.subordinates)) {
+    if (Array.isArray(node.subordinates) && node.subordinates.length > 0) {
         const childrenContainer = document.createElement('div');
-        childrenContainer.className = 'ml-6 border-l pl-4 mt-2';
+        childrenContainer.className = 'ml-6 mt-2 flex flex-col';
+        // Add a connecting line element
+        const connector = document.createElement('div');
+        connector.className = 'absolute left-0 top-1/2 h-1/2 w-6 border-t border-l border-gray-300';
+        container.appendChild(connector);
         node.subordinates.forEach((child) => {
             childrenContainer.appendChild(createNode(child));
         });
