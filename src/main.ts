@@ -8,55 +8,37 @@ interface OrgNode {
   subordinates?: OrgNode[];
 }
 
-function createNode(node: OrgNode): HTMLElement {
-  const container = document.createElement('div');
-  container.className = 'border rounded-xl p-4 bg-white shadow-md m-2';
+const createNode = (node: OrgNode): HTMLElement => {
+  const box = document.createElement('div');
+  box.className = 'text-[10px] border rounded bg-white p-0.5 shadow-sm m-0.5';
 
-  const title = document.createElement('div');
-  title.className = 'font-bold text-blue-700';
-  const titleText = `${node.designation} | ${node.shortform || ''} (${node.scale})`;
-  title.textContent = titleText;
+  box.innerHTML = `
+    <div class="font-semibold text-blue-600 leading-none">
+      ${node.designation}${node.shortform ? ' | ' + node.shortform : ''} (${node.scale})
+    </div>
+    <div class="text-gray-500 leading-none mt-0.5">Posting: ${node.posting}</div>
+  `;
 
-  const posting = document.createElement('div');
-  posting.className = 'text-sm text-gray-600';
-  posting.textContent = `Posting: ${node.posting}`;
-
-  container.appendChild(title);
-  container.appendChild(posting);
-
-  if (Array.isArray(node.subordinates) && node.subordinates.length > 0) {
-    const childrenContainer = document.createElement('div');
-    childrenContainer.className = 'ml-6 border-l pl-4 mt-2';
-
-    node.subordinates.forEach((child) => {
-      childrenContainer.appendChild(createNode(child));
-    });
-
-    container.appendChild(childrenContainer);
+  if (node.subordinates?.length) {
+    const children = document.createElement('div');
+    children.className = 'ml-1 pl-1 border-l border-gray-300 mt-0.5';
+    node.subordinates.forEach(child => children.appendChild(createNode(child)));
+    box.appendChild(children);
   }
 
-  return container;
-}
+  return box;
+};
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
   const root = document.getElementById('app');
+  if (!root) return console.error('Root element not found');
 
-  fetch('https://run.mocky.io/v3/63413c29-501d-4180-9373-917ea8bb71fc')
-    .then(response => {
-      if (!response.ok) {
-        throw new Error(`HTTP error! Status: ${response.status}`);
-      }
-      return response.json();
-    })
-    .then((data: OrgNode) => {
-      if (root) {
-        const tree = createNode(data);
-        root.appendChild(tree);
-      } else {
-        console.error('Root element not found');
-      }
-    })
-    .catch(error => {
-      console.error('Error fetching organogram data:', error);
-    });
+  try {
+    const res = await fetch('https://run.mocky.io/v3/63413c29-501d-4180-9373-917ea8bb71fc');
+    if (!res.ok) throw new Error(`HTTP error! Status: ${res.status}`);
+    const data: OrgNode = await res.json();
+    root.appendChild(createNode(data));
+  } catch (err) {
+    console.error('Error loading organogram:', err);
+  }
 });
