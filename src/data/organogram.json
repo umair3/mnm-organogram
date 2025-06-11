@@ -3,32 +3,41 @@
   "designation": "Director General Mines & Minerals",
   "shortform": "DGMM",
   "scale": "BS-20",
+  "email": "director.general@mnm.punjab.gov.pk",
   "posting": "Head Quarters",
   "subordinates": [
     {
       "designation": "Personal Assistant to Director General Mines & Minerals",
       "shortform": "PA TO DGMM",
       "scale": "BS-16",
+      "email": "padgmm@punjab.gov.pk",
       "posting": "Head Quarters"
     },
     {
       "designation": "Suprintendent Receipt and Issue",
       "shortform": "Suprintendent(R&I)",
       "scale": "BS-17",
+      "email": "suptrni.dgmn@punjab.gov.pk",
+      "status" : "new",
       "posting": "Head Quarters"
     },
     {
-      "designation": "Director Resource Mapping| Director RMD",
+      "designation": "Director Resource Mapping",
+      "shortform": "Director RM",
       "scale": "BS-19",
+      "email": "director.rm.dgmn@punjab.gov.pk",
+      "status" : "new",
       "posting": "Head Quarters",
       "subordinates": [
         {
-          "designation": "Manager CS",
+          "designation": "Manager Cartography",
+          "shortform": "Manager CG",
           "scale": "Bs-18",
           "posting": "Head Quarters",
           "subordinates": [
             {
-              "designation": "Deputy Manager CS",
+              "designation": "Deputy Manager Cartogrphy",
+              "shortform": "Deputy CG",
               "scale": "Bs-17",
               "posting": "Head Quarters"
             }
@@ -188,11 +197,13 @@
             },
             {
               "designation": "Hardware Technician",
+              "shortform": "HT",
               "scale": "Bs-16",
               "posting": "Head Quarters"
             },
             {
               "designation": "Librarian",
+              "shortform": "Lib",
               "scale": "Bs-17",
               "posting": "Head Quarters"
             }
@@ -201,12 +212,13 @@
       ]
     },
     {
-      "designation": "Director Small Mines Assistance / Titles | Director SMA/T | LA Small Scale Mining",
+      "designation": "Director Small Mines Assistance / Titles | Director SMA/T",
+      "shortform": "Director LA SMA/T",
       "scale": "BS-19",
       "posting": "Head Quarters",
       "subordinates": [
         {
-          "designation": "Personal Assistant to Small Mines Assistance / Titles | PA To Director SMA/T | PA TO LA Small Scale Mining",
+          "designation": "Personal Assistant to Small Mines Assistance / Titles | | PA TO LA Small Scale Mining",
           "shortform": "PA(Director SMA/T)",
           "scale": "BS-14",
           "posting": "Head Quarters"
@@ -446,7 +458,8 @@
       ]
     },
     {
-      "designation": "Director Administration | Director Admin",
+      "designation": "Director Administration",
+      "shortform": "DA",
       "scale": "BS-19",
       "posting": "Head Quarters",
       "subordinates": [
@@ -514,29 +527,33 @@
         },
         {
           "designation": "AUDIT OFFICER",
-          "shortform": "AUDIT OFFICER",
+          "shortform": "AO",
           "scale": "Bs-17",
           "posting": "Head Quarters"
         }
       ]
     },
     {
-      "designation": "Director Environmental Facilitation & Infrastructure Development | Director EF&ID",
+      "designation": "Director Environmental Facilitation & Infrastructure Development ",
+      "shortform": "Director EF&ID",
       "scale": "BS-19",
       "posting": "Head Quarters",
       "subordinates": [
         {
-          "designation": "Manager Environmental Facilitation | Manager EF",
+          "designation": "Manager Environmental Facilitation",
+          "shortform": "Manager EF",
           "scale": "BS-18",
           "posting": "Head Quarters",
           "subordinates": [
             {
-              "designation": "Deputy Manager Environmental Facilitation | Deputy Manager EF",
+              "designation": "Deputy Manager Environmental Facilitation",
+               "shortform": "Deputy MAnager EF",
               "scale": "BS-17",
               "posting": "Head Quarters",
               "subordinates": [
                 {
                   "designation": "Suprintendent Environmental Facilitation | Suprintendent EF",
+                  "shortform": "Suprintendent EF",
                   "scale": "BS-17",
                   "posting": "Head Quarters"
                 }
@@ -547,7 +564,8 @@
       ]
     },
     {
-      "designation": "Director Minor Mineral | Licensing Authority Minor Mineral | Director MM | LA Minor Mineral",
+      "designation": "Director Minor Mineral | Licensing Authority Minor Mineral",
+      "shortform": "Director LA MM",
       "scale": "BS-19",
       "posting": "Head Quarters",
       "subordinates": [
@@ -817,7 +835,8 @@
               "posting": "Lahore Region",
               "subordinates": [
                 {
-                  "designation": "Assistant Director Lahore Region | AD(LHR)",
+                  "designation": "Assistant Director Lahore Region",
+                  "shortform": "AD(LHR)",
                   "scale": "Bs-17",
                   "posting": "Lahore Region",
                   "subordinates": [
@@ -894,26 +913,30 @@
       "posting": "Head Quarters",
       "subordinates": [
         {
-          "designation": "Assistant Director EL | AD EL",
+          "designation": "Assistant Director EL",
+          "shortform": "AD EL",
           "scale": "Bs-17",
           "posting": "Head Quarters",
           "subordinates": [
             {
-              "designation": "Suprintendent Large Scale Mining | Suprintendent LSM",
+              "designation": "Suprintendent Large Scale Mining",
+              "shortform": "Suprintendent LSM",
               "scale": "Bs-17",
               "posting": "Head Quarters"
             }
           ]
         },
         {
-          "designation": "Assistant Director ML | AD ML",
+          "designation": "Assistant Director ML",
+          "shortform": "AD ML",
           "scale": "Bs-17",
           "posting": "Head Quarters"
         }
       ]
     },
     {
-      "designation": "Assistant Director Appeal | AD Appeal",
+      "designation": "Assistant Director Appeal",
+      "shortform": "AD Appeal",
       "scale": "Bs-17",
       "posting": "Head Quarters",
       "subordinates": [
