@@ -10,6 +10,15 @@ interface OrgNode {
   subordinates?: OrgNode[];
 }
 
+const getStatusColor = (status: string): string => {
+  if (!status) return 'text-red-500';
+  switch (status.toLowerCase()) {
+    case 'new': return 'text-yellow-500';
+    case 'active': return 'text-green-500';
+    default: return 'text-red-500';
+  }
+};
+
 const createNode = (node: OrgNode): HTMLElement => {
   const box = document.createElement('div');
   box.className = 'text-[10px] border rounded bg-white p-0.5 shadow-sm m-0.5';
@@ -18,7 +27,7 @@ const createNode = (node: OrgNode): HTMLElement => {
     <div class="font-semibold text-blue-600 leading-none">
       ${node.designation}${node.shortform ? ' | ' + node.shortform : ''} (${node.scale})
     </div>
-    <div class="text-gray-500 leading-none mt-0.5">Posting: ${node.posting}, Status: ${node.status}, Email: ${node.email}</div>
+    <div class="text-gray-500 leading-none mt-0.5">Posting: ${node.posting}, Status: <span class="${getStatusColor(node.status)}">${node.status || 'undefined'}</span>, Email: ${node.email}</div>
   `;
 
   if (node.subordinates?.length) {
