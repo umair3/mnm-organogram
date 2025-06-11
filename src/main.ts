@@ -3,8 +3,10 @@
 interface OrgNode {
   designation: string;
   scale: string;
+  email: string;
+  status: string;
   posting: string;
-  shortform?: string;
+  shortform: string;
   subordinates?: OrgNode[];
 }
 
@@ -16,7 +18,7 @@ const createNode = (node: OrgNode): HTMLElement => {
     <div class="font-semibold text-blue-600 leading-none">
       ${node.designation}${node.shortform ? ' | ' + node.shortform : ''} (${node.scale})
     </div>
-    <div class="text-gray-500 leading-none mt-0.5">Posting: ${node.posting}</div>
+    <div class="text-gray-500 leading-none mt-0.5">Posting: ${node.posting}, Status: ${node.status}, Email: ${node.email}</div>
   `;
 
   if (node.subordinates?.length) {
@@ -34,7 +36,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   if (!root) return console.error('Root element not found');
 
   try {
-    const res = await fetch('https://run.mocky.io/v3/63413c29-501d-4180-9373-917ea8bb71fc');
+    const res = await fetch('https://run.mocky.io/v3/742e00e1-8ab9-4f16-93a4-58ffb744f2d1');
     if (!res.ok) throw new Error(`HTTP error! Status: ${res.status}`);
     const data: OrgNode = await res.json();
     root.appendChild(createNode(data));
