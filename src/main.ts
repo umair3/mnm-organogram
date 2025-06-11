@@ -1,4 +1,5 @@
 // main.ts
+
 interface OrgNode {
   designation: string;
   scale: string;
@@ -7,16 +8,13 @@ interface OrgNode {
   subordinates?: OrgNode[];
 }
 
-
-const organogram: OrgNode = data as OrgNode;
-
 function createNode(node: OrgNode): HTMLElement {
   const container = document.createElement('div');
   container.className = 'border rounded-xl p-4 bg-white shadow-md m-2';
 
   const title = document.createElement('div');
   title.className = 'font-bold text-blue-700';
-  const titleText = `${node.designation} | ${node.shortform} (${node.scale})`;
+  const titleText = `${node.designation} | ${node.shortform || ''} (${node.scale})`;
   title.textContent = titleText;
 
   const posting = document.createElement('div');
@@ -42,19 +40,23 @@ function createNode(node: OrgNode): HTMLElement {
 
 document.addEventListener('DOMContentLoaded', () => {
   const root = document.getElementById('app');
-  // load the organogram data
-  let data:any  = null
-  fetch('https://run.mocky.io/v3/63413c29-501d-4180-9373-917ea8bb71fc')
-  .then(response => response.json())
-  .then(jsonData => {
-    data = jsonData;
-    console.log(data);
-    return data;
-  });
 
-  if (root) {
-    root.appendChild(createNode(organogram));
-  } else {
-    console.error('Root element not found');
-  }
+  fetch('https://run.mocky.io/v3/63413c29-501d-4180-9373-917ea8bb71fc')
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+      return response.json();
+    })
+    .then((data: OrgNode) => {
+      if (root) {
+        const tree = createNode(data);
+        root.appendChild(tree);
+      } else {
+        console.error('Root element not found');
+      }
+    })
+    .catch(error => {
+      console.error('Error fetching organogram data:', error);
+    });
 });

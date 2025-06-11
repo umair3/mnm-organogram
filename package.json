@@ -12,6 +12,19 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^24.0.0"
-  }
+    "@types/node": "^24.0.0",
+    "tailwindcss": "^4.1.9"
+  },
+  "dependencies": {
+    "tailwind": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umair3/mnm-organogram.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/umair3/mnm-organogram/issues"
+  },
+  "homepage": "https://github.com/umair3/mnm-organogram#readme"
 }
