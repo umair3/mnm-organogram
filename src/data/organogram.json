@@ -33,12 +33,16 @@
           "designation": "Manager Cartography",
           "shortform": "Manager CG",
           "scale": "Bs-18",
+          "email": "@punjab.gov.pk",
+          "status" : "active",
           "posting": "Head Quarters",
           "subordinates": [
             {
               "designation": "Deputy Manager Cartogrphy",
               "shortform": "Deputy CG",
               "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "Head Quarters"
             }
           ]
@@ -47,12 +51,16 @@
           "designation": "Manager Geological Mapping",
           "shortform": "Manager GM",
           "scale": "Bs-18",
+          "email": "@punjab.gov.pk",
+          "status" : "active",
           "posting": "Head Quarters",
           "subordinates": [
             {
               "designation": "Deputy Manager Geological Mapping",
               "shortform": "Deputy Manager GM",
               "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "Head Quarters"
             }
           ]
@@ -61,12 +69,16 @@
           "designation": "Manager Geophysics",
           "shortform": "Manager GP",
           "scale": "Bs-18",
+          "email": "@punjab.gov.pk",
+          "status" : "active",
           "posting": "Head Quarters",
           "subordinates": [
             {
               "designation": "Deputy Manager Geophysics",
               "shortform": "Deputy Manager GP",
               "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "Head Quarters"
             }
           ]
@@ -75,12 +87,16 @@
           "designation": "Manager Geochemistry",
           "shortform": "Manager GC",
           "scale": "Bs-18",
+          "email": "@punjab.gov.pk",
+          "status" : "active",
           "posting": "Head Quarters",
           "subordinates": [
             {
               "designation": "Deputy Manager Geochemistry",
               "shortform": "Deputy Manager GC",
               "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "Head Quarters"
             }
           ]
@@ -89,12 +105,16 @@
           "designation": "Manager Basin Studies",
           "shortform": "Manager BS",
           "scale": "Bs-18",
+          "email": "@punjab.gov.pk",
+          "status" : "active",
           "posting": "Head Quarters",
           "subordinates": [
             {
               "designation": "Deputy Manager Basin Studies",
               "shortform": "Deputy Manager BS",
               "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "Head Quarters"
             }
           ]
@@ -103,12 +123,16 @@
           "designation": "Assistant Engineer Mechnical",
           "shortform": "AE Mech",
           "scale": "Bs-17",
+          "email": "@punjab.gov.pk",
+          "status" : "active",
           "posting": "Head Quarters"
         },
         {
           "designation": "Assistant Engineer Electrical",
           "shortform": "AE Elec",
           "scale": "Bs-17",
+          "email": "@punjab.gov.pk",
+          "status" : "active",
           "posting": "Head Quarters"
         }
       ]
@@ -117,48 +141,64 @@
       "designation": "Director Geographical Information System",
       "shortform": "Director GIS",
       "scale": "BS-19",
+      "email": "@punjab.gov.pk",
+      "status" : "active",
       "posting": "Head Quarters",
       "subordinates": [
         {
           "designation": "Manager Geographical Information System",
           "shortform": "Manager GIS",
           "scale": "Bs-18",
+          "email": "@punjab.gov.pk",
+          "status" : "active",
           "posting": "Head Quarters",
           "subordinates": [
             {
               "designation": "Computer Programmer",
               "shortform": "CP",
               "scale": "Bs-16",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "Head Quarters"
             },
             {
               "designation": "Geographical Information System Development Officer 1",
               "shortform": "GIS DO 1",
               "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "Head Quarters"
             },
             {
               "designation": "Geographical Information System Development Officer 2",
               "shortform": "GIS DO 2",
               "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "Head Quarters"
             },
             {
               "designation": "Geographical Information System Development Officer 3",
               "shortform": "GIS DO 3",
               "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "Head Quarters"
             },
             {
               "designation": "Geographical Information System Development Officer 4",
               "shortform": "GIS DO ",
               "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "Head Quarters"
             },
             {
               "designation": "Geographical Information System Development Officer 5",
               "shortform": "GIS DO 5",
               "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "Head Quarters"
             }
           ]
@@ -167,44 +207,58 @@
     },
     {
       "designation": "Director Information Promotion & Service ",
-      "shortform": "DIPS",
+      "shortform": "Dir IPS",
       "scale": "BS-19",
+      "email": "@punjab.gov.pk",
+      "status" : "active",
       "posting": "Head Quarters",
       "subordinates": [
         {
           "designation": "Manager Information Technology",
           "shortform": "Manager IT",
           "scale": "Bs-18",
+          "email": "@punjab.gov.pk",
+          "status" : "active",
           "posting": "Head Quarters",
           "subordinates": [
             {
               "designation": "Computer Programmer",
               "shortform": "CP",
               "scale": "Bs-16",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "Head Quarters"
             },
             {
               "designation": "Network Administrator",
               "shortform": "NA",
               "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "Head Quarters"
             },
             {
               "designation": "Database Administrator",
               "shortform": "DBA",
               "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "Head Quarters"
             },
             {
               "designation": "Hardware Technician",
               "shortform": "HT",
               "scale": "Bs-16",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "Head Quarters"
             },
             {
               "designation": "Librarian",
               "shortform": "Lib",
               "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "Head Quarters"
             }
           ]
@@ -215,24 +269,32 @@
       "designation": "Director Small Mines Assistance / Titles | Director SMA/T",
       "shortform": "Director LA SMA/T",
       "scale": "BS-19",
+      "email": "@punjab.gov.pk",
+      "status" : "active",
       "posting": "Head Quarters",
       "subordinates": [
         {
           "designation": "Personal Assistant to Small Mines Assistance / Titles | | PA TO LA Small Scale Mining",
           "shortform": "PA(Director SMA/T)",
           "scale": "BS-14",
+          "email": "@punjab.gov.pk",
+          "status" : "active",
           "posting": "Head Quarters"
         },
          {
           "designation": "Deputy Director Account Officer",
           "shortform": "DD(Account)",
           "scale": "Bs-18",
+          "email": "@punjab.gov.pk",
+          "status" : "active",
           "posting": "Head Quarters",
           "subordinates": [
             {
               "designation": "Account Officer Minor Minerals",
               "shortform": "Account Officer Minor Minerals",
               "scale": "Bs-16",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "Head Quarters",
               "subordinates": []
             },
@@ -240,6 +302,8 @@
               "designation": "Account Officer Major Minerals",
               "shortform": "Account Officer Major Minerals",
               "scale": "Bs-16",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "Head Quarters",
               "subordinates": []
             }
@@ -249,18 +313,24 @@
           "designation": "Deputy Director AUCTION HQ",
           "shortform": "DD(AUCTION)",
           "scale": "Bs-18",
+          "email": "@punjab.gov.pk",
+          "status" : "active",
           "posting": "Head Quarters",
           "subordinates": [
             {
               "designation": "Assistant Director AUCTION HQ",
               "shortform": "AD(AUCTION)",
               "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "Head Quarters",
               "subordinates": [
                 {
                   "designation": "Suprintendent AUCTION HQ",
                   "shortform": "Suprintendent(AUCTION)",
                   "scale": "Bs-17",
+                  "email": "@punjab.gov.pk",
+                  "status" : "active",
                   "posting": "Head Quarters"
                 }
               ]
@@ -271,18 +341,24 @@
           "designation": "Deputy Director HEADQUARTER",
           "shortform": "DD(HQR)",
           "scale": "Bs-18",
+          "email": "@punjab.gov.pk",
+          "status" : "active",
           "posting": "Head Quarters",
           "subordinates": [
             {
               "designation": "Assistant Director HEADQUARTER",
               "shortform": "AD(HQ)",
               "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "Head Quarters",
               "subordinates": [
                 {
                   "designation": "Suprintendent HEADQUARTER",
                   "shortform": "Suprintendent(HQ)",
                   "scale": "Bs-17",
+                  "email": "@punjab.gov.pk",
+                  "status" : "active",
                   "posting": "Head Quarters"
                 }
               ]
@@ -293,18 +369,24 @@
           "designation": "Deputy Director Mining Lease 1 HQ",
           "shortform": "DD(ML1)",
           "scale": "Bs-18",
+          "email": "@punjab.gov.pk",
+          "status" : "active",
           "posting": "Head Quarters",
           "subordinates": [
             {
               "designation": "Assistant Director Mining LEASE 1 HQ",
               "shortform": "AD(ML1)",
               "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "Head Quarters",
               "subordinates": [
                 {
                   "designation": "Suprintendent Mining Lease 1 HQ",
                   "shortform": "Suprintendent(ML1)",
                   "scale": "Bs-17",
+                  "email": "@punjab.gov.pk",
+                  "status" : "active",
                   "posting": "Head Quarters"
                 }
               ]
@@ -315,18 +397,24 @@
           "designation": "Deputy Director Mining Lease 2 HQ",
           "shortform": "DD(ML2)",
           "scale": "Bs-18",
+          "email": "@punjab.gov.pk",
+          "status" : "active",
           "posting": "Head Quarters",
           "subordinates": [
             {
               "designation": "Assistant Director Mining Lease 2 HQ",
               "shortform": "AD(ML2)",
               "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "Head Quarters",
               "subordinates": [
                 {
                   "designation": "Suprintendent Mining Lease 2 HQ",
                   "shortform": "Suprintendent(ML2)",
                   "scale": "Bs-17",
+                  "email": "@punjab.gov.pk",
+                  "status" : "active",
                   "posting": "Head Quarters"
                 }
               ]
@@ -337,18 +425,24 @@
           "designation": "Deputy Director Prospecting License HQ",
           "shortform": "DD(PL)",
           "scale": "Bs-18",
+          "email": "@punjab.gov.pk",
+          "status" : "active",
           "posting": "Head Quarters",
           "subordinates": [
             {
               "designation": "Assistant Director Prospecting License HQ",
               "shortform": "AD(PL)",
               "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "Head Quarters",
               "subordinates": [
                 {
                   "designation": "Suprintendent Prospecting License HQ",
                   "shortform": "Suprintendent(PL)",
                   "scale": "Bs-17",
+                  "email": "@punjab.gov.pk",
+                  "status" : "active",
                   "posting": "Head Quarters"
                 }
               ]
@@ -359,18 +453,24 @@
           "designation": "Deputy Director Mining Consession HQ",
           "shortform": "DD(MC)",
           "scale": "Bs-18",
+          "email": "@punjab.gov.pk",
+          "status" : "active",
           "posting": "Head Quarters",
           "subordinates": [
             {
               "designation": "Assistant Director Mining Consession HQ",
               "shortform": "AD(MC)",
               "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "Head Quarters",
               "subordinates": [
                 {
                   "designation": "Suprintendent Mining Consession HQ",
                   "shortform": "Suprintendent(MC)",
                   "scale": "Bs-17",
+                  "email": "@punjab.gov.pk",
+                  "status" : "active",
                   "posting": "Head Quarters"
                 }
               ]
@@ -381,18 +481,24 @@
           "designation": "Deputy Director CHAKWAL",
           "shortform": "DD(CKL)",
           "scale": "Bs-18",
+          "email": "@punjab.gov.pk",
+          "status" : "active",
           "posting": "Chakwal",
           "subordinates": [
             {
               "designation": "Assistant Director Chakwal",
               "shortform": "AD(CKL)",
               "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "Chakwal",
               "subordinates": [
                 {
                   "designation": "Suprintendent CHAKWAL",
                   "shortform": "Suprintendent(CKL)",
                   "scale": "Bs-17",
+                  "email": "@punjab.gov.pk",
+                  "status" : "active",
                   "posting": "Chakwal"
                 }
               ]
@@ -403,24 +509,32 @@
           "designation": "Deputy Director MIANWALI",
           "shortform": "DD(MLI)",
           "scale": "Bs-18",
+          "email": "@punjab.gov.pk",
+          "status" : "active",
           "posting": "Mianwali",
           "subordinates": [
             {
               "designation": "Assistant Director MIANWALI HQ",
               "shortform": "AD(MLI)",
               "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "Mianwali",
               "subordinates": [
                 {
                   "designation": "Suprintendent MIANWALI",
                   "shortform": "Suprintendent(MLI)",
                   "scale": "Bs-17",
+                  "email": "@punjab.gov.pk",
+                  "status" : "active",
                   "posting": "Mianwali"
                 },
                 {
                   "designation": "Geologist MIANWALI",
                   "shortform": "Geologist(MIANWALI)",
                   "scale": "Bs-17",
+                  "email": "@punjab.gov.pk",
+                  "status" : "active",
                   "posting": "Mianwali"
                 }
               ]
@@ -431,24 +545,32 @@
           "designation": "Deputy Director KHUSHAB",
           "shortform": "DD(KHB)",
           "scale": "Bs-18",
+          "email": "@punjab.gov.pk",
+          "status" : "active",
           "posting": "khushab",
           "subordinates": [
             {
               "designation": "Assistant Director KHUSHAB HQ",
               "shortform": "AD(KHB)",
               "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "khushab",
               "subordinates": [
                 {
                   "designation": "Suprintendent KHUSHAB",
                   "shortform": "Suprintendent(KHB)",
                   "scale": "Bs-17",
+                  "email": "@punjab.gov.pk",
+                  "status" : "active",
                   "posting": "khushab"
                 },
                 {
                   "designation": "Geologist KHUSHAB",
                   "shortform": "Geologist(KHB)",
                   "scale": "Bs-17",
+                  "email": "@punjab.gov.pk",
+                  "status" : "active",
                   "posting": "khushab"
                 }
               ]
@@ -461,24 +583,32 @@
       "designation": "Director Administration",
       "shortform": "DA",
       "scale": "BS-19",
+      "email": "@punjab.gov.pk",
+      "status" : "active",
       "posting": "Head Quarters",
       "subordinates": [
         {
           "designation": "Deputy Director Admin",
           "shortform": "DD (Admin)",
           "scale": "Bs-18",
+          "email": "@punjab.gov.pk",
+          "status" : "active",
           "posting": "Head Quarters",
           "subordinates": [
             {
               "designation": "Assistant Director Administration",
               "shortform": "AD(Admin)",
               "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "Head Quarters",
               "subordinates": [
                 {
                   "designation": "Suprintendent Admin",
                   "shortform": "Suprintendent(Admin)",
                   "scale": "Bs-17",
+                  "email": "@punjab.gov.pk",
+                  "status" : "active",
                   "posting": "Head Quarters"
                 }
               ]
@@ -489,18 +619,24 @@
           "designation": "Assistant Director Establishment",
           "shortform": "AD(Estt.)",
           "scale": "Bs-17",
+          "email": "@punjab.gov.pk",
+          "status" : "active",
           "posting": "Head Quarters"
         },
         {
           "designation": "Assistant Director Budget & Accounts",
           "shortform": "AD(B&A)",
           "scale": "Bs-17",
+          "email": "@punjab.gov.pk",
+          "status" : "active",
           "posting": "Head Quarters",
           "subordinates": [
             {
               "designation": "Suprintendent Budget & Accounts",
               "shortform": "Suprintendent(B&A)",
               "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "Head Quarters"
             }
           ]
@@ -509,18 +645,24 @@
           "designation": "Account OFFICER Drawing & Disbursement",
           "shortform": "Account Officer (DDO)",
           "scale": "Bs-17",
+          "email": "@punjab.gov.pk",
+          "status" : "active",
           "posting": "Head Quarters"
         },
         {
           "designation": "Assistant Director Planning & Coordination",
           "shortform": "AD (P&C)",
           "scale": "Bs-17",
+          "email": "@punjab.gov.pk",
+          "status" : "active",
           "posting": "Head Quarters",
           "subordinates":[
             {
               "designation": "Suprintendent Planning & Coordination",
               "shortform": "Suprintendent (P&C)",
               "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "Head Quarters"
             }
           ]
@@ -529,6 +671,8 @@
           "designation": "AUDIT OFFICER",
           "shortform": "AO",
           "scale": "Bs-17",
+          "email": "@punjab.gov.pk",
+          "status" : "active",
           "posting": "Head Quarters"
         }
       ]
@@ -537,24 +681,32 @@
       "designation": "Director Environmental Facilitation & Infrastructure Development ",
       "shortform": "Director EF&ID",
       "scale": "BS-19",
+      "email": "@punjab.gov.pk",
+      "status" : "active",
       "posting": "Head Quarters",
       "subordinates": [
         {
           "designation": "Manager Environmental Facilitation",
           "shortform": "Manager EF",
           "scale": "BS-18",
+          "email": "@punjab.gov.pk",
+          "status" : "active",
           "posting": "Head Quarters",
           "subordinates": [
             {
               "designation": "Deputy Manager Environmental Facilitation",
-               "shortform": "Deputy MAnager EF",
+              "shortform": "Deputy MAnager EF",
               "scale": "BS-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "Head Quarters",
               "subordinates": [
                 {
                   "designation": "Suprintendent Environmental Facilitation | Suprintendent EF",
                   "shortform": "Suprintendent EF",
                   "scale": "BS-17",
+                  "email": "@punjab.gov.pk",
+                  "status" : "active",
                   "posting": "Head Quarters"
                 }
               ]
@@ -567,24 +719,32 @@
       "designation": "Director Minor Mineral | Licensing Authority Minor Mineral",
       "shortform": "Director LA MM",
       "scale": "BS-19",
+      "email": "@punjab.gov.pk",
+      "status" : "active",
       "posting": "Head Quarters",
       "subordinates": [
         {
           "designation": "Deputy Director HQR(Minor Minerals)",
           "shortform": "DD(HQR)",
           "scale": "Bs-18",
+          "email": "@punjab.gov.pk",
+          "status" : "active",
           "posting": "Head Quarters",
           "subordinates": [
             {
               "designation": "Assistant Director HQR(Minor Minerals",
               "shortform": "AD(HQR)",
               "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "Head Quarters",
               "subordinates": [
                 {
                   "designation": "Suprintendent HQ (Minor and Minerals)",
                   "shortform": "Suprintendent (HQR)",
                   "scale": "BS-17",
+                  "email": "@punjab.gov.pk",
+                  "status" : "active",
                   "posting": "Head Quarters",
                   "subordinates": []
                 }
@@ -596,24 +756,32 @@
           "designation": "Deputy Director DG KHAN",
           "shortform": "DD(DGK)",
           "scale": "Bs-18",
+          "email": "@punjab.gov.pk",
+          "status" : "active",
           "posting": "DG KHAN",
           "subordinates": [
             {
               "designation": "Assistant Director DG KHAN",
               "shortform": "AD(DGK)",
               "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "DG KHAN",
               "subordinates": [
                 {
                   "designation": "Suprintendent DG KHAN",
                   "shortform": "Suprintendent DGK",
                   "scale": "BS-17",
+                  "email": "@punjab.gov.pk",
+                  "status" : "active",
                   "posting": "DG KHAN",
                   "subordinates": [
                     {
                       "designation": "Assistant DG KHAN",
                       "shortform": "Assistant(DGK)",
                       "scale": "BS-16",
+                      "email": "@punjab.gov.pk",
+                      "status" : "active",
                       "posting": "DG KHAN"
                     }
                   ]
@@ -626,24 +794,32 @@
           "designation": "Deputy Director MULTAN",
           "shortform": "DD(MNT)",
           "scale": "Bs-18",
+          "email": "@punjab.gov.pk",
+          "status" : "active",
           "posting": "MULTAN",
           "subordinates": [
             {
               "designation": "Assistant Director MULTAN",
               "shortform": "AD(MNT)",
               "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "MULTAN",
               "subordinates": [
                 {
                   "designation": "Suprintendent MULTAN",
                   "shortform": "Suprintendent (MNT)",
                   "scale": "BS-17",
+                  "email": "@punjab.gov.pk",
+                  "status" : "active",
                   "posting": "MULTAN",
                   "subordinates": [
                     {
                       "designation": "Assistant MULTAN",
                       "shortform": "Assistant(MNT)",
                       "scale": "BS-16",
+                      "email": "@punjab.gov.pk",
+                      "status" : "active",
                       "posting": "MULTAN"
                     }
                   ]
@@ -654,12 +830,16 @@
               "designation": "Assistant Director BAHAWALPUR",
               "shortform": "AD(BWP)",
               "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "BAHAWALPUR",
               "subordinates": [
                 {
                   "designation": "Suprintendent BAHAWALPUR",
                   "shortform": "Suprintendent(BWP)",
                   "scale": "BS-17",
+                  "email": "@punjab.gov.pk",
+                  "status" : "active",
                   "posting": "BAHAWALPUR",
                   "subordinates": [
                     {
@@ -678,24 +858,32 @@
           "designation": "Deputy Director RAWALPINDI",
           "shortform": "DD(RWP)",
           "scale": "Bs-18",
+          "email": "@punjab.gov.pk",
+          "status" : "active",
           "posting": "RAWALPINDI",
           "subordinates": [
             {
               "designation": "Assistant Director RAWALPINDI",
               "shortform": "AD(RWP)",
               "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "RAWALPINDI",
               "subordinates": [
                 {
                   "designation": "Suprintendent RAWALPINDI",
                   "shortform": "Suprintendent(RWP)",
                   "scale": "BS-17",
+                  "email": "@punjab.gov.pk",
+                  "status" : "active",
                   "posting": "RAWALPINDI",
                   "subordinates": [
                     {
                       "designation": "Assistant RAWALPINDI",
                       "shortform": "Assistant(RWP)",
                       "scale": "BS-16",
+                      "email": "@punjab.gov.pk",
+                      "status" : "active",
                       "posting": "RAWALPINDI"
                     }
                   ]
@@ -706,18 +894,24 @@
               "designation": "Assistant Director ATTOCK",
               "shortform": "AD(ATK)",
               "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "ATTOCK",
               "subordinates": [
                 {
                   "designation": "Suprintendent ATTOCK",
                   "shortform": "Suprintendent(ATK)",
                   "scale": "BS-17",
+                  "email": "@punjab.gov.pk",
+                  "status" : "active",
                   "posting": "ATTOCK",
                   "subordinates": [
                     {
                       "designation": "Assistant ATTOCK",
                       "shortform": "Assistant(ATK)",
                       "scale": "BS-16",
+                      "email": "@punjab.gov.pk",
+                      "status" : "active",
                       "posting": "ATTOCK"
                     }
                   ]
@@ -728,18 +922,24 @@
               "designation": "Assistant Director JEHLUM",
               "shortform": "AD(JLM)",
               "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "JEHLUM",
               "subordinates": [
                 {
                   "designation": "Suprintendent JEHLUM",
                   "shortform": "Suprintendent(JLM)",
                   "scale": "BS-17",
+                  "email": "@punjab.gov.pk",
+                  "status" : "active",
                   "posting": "JEHLUM",
                   "subordinates": [
                     {
                       "designation": "Assistant JEHLUM",
                       "shortform": "Assistant(JLM)",
                       "scale": "BS-16",
+                      "email": "@punjab.gov.pk",
+                      "status" : "active",
                       "posting": "JEHLUM"
                     }
                   ]
@@ -752,24 +952,32 @@
           "designation": "Deputy Director SARGODHA",
           "shortform": "DD(SRG)",
           "scale": "Bs-18",
+          "email": "@punjab.gov.pk",
+          "status" : "active",
           "posting": "SARGODHA",
           "subordinates": [
             {
               "designation": "Assistant Director SARGODHA",
               "shortform": "AD(SRG)",
               "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "SARGODHA",
               "subordinates": [
                 {
                   "designation": "Suprintendent SARGODHA",
                   "shortform": "Suprintendent(SRG)",
                   "scale": "BS-17",
+                  "email": "@punjab.gov.pk",
+                  "status" : "active",
                   "posting": "SARGODHA",
                   "subordinates": [
                     {
                       "designation": "Assistant SARGODHA",
                       "shortform": "Assistant(SRG)",
                       "scale": "BS-16",
+                      "email": "@punjab.gov.pk",
+                      "status" : "active",
                       "posting": "SARGODHA"
                     }
                   ]
@@ -780,18 +988,24 @@
               "designation": "Assistant Director CHINIOT",
               "shortform": "AD(CHT)",
               "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "CHINIOT",
               "subordinates": [
                 {
                   "designation": "Suprintendent CHINIOT",
                   "shortform": "Suprintendent(CHT)",
                   "scale": "BS-17",
+                  "email": "@punjab.gov.pk",
+                  "status" : "active",
                   "posting": "CHINIOT",
                   "subordinates": [
                     {
                       "designation": "Assistant CHINIOT",
                       "shortform": "Assistant(CHT)",
                       "scale": "BS-16",
+                      "email": "@punjab.gov.pk",
+                      "status" : "active",
                       "posting": "CHINIOT"
                     }
                   ]
@@ -802,24 +1016,32 @@
               "designation": "Deputy Director GUJRANWALA",
               "shortform": "DD(GRW)",
               "scale": "Bs-18",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "GUJRANWALA",
               "subordinates": [
                 {
                   "designation": "Assistant Director GUJRANWALA",
                   "shortform": "AD(GRW)",
                   "scale": "Bs-17",
+                  "email": "@punjab.gov.pk",
+                  "status" : "active",
                   "posting": "GUJRANWALA",
                   "subordinates": [
                     {
                       "designation": "Suprintendent GUJRANWALA",
                       "shortform": "Suprintendent(GRW)",
                       "scale": "BS-17",
+                      "email": "@punjab.gov.pk",
+                      "status" : "active",
                       "posting": "GUJRANWALA",
                       "subordinates": [
                         {
                           "designation": "Assistant GUJRANWALA",
                           "shortform": "Assistant(GRW)",
                           "scale": "BS-16",
+                          "email": "@punjab.gov.pk",
+                          "status" : "active",
                           "posting": "GUJRANWALA"
                         }
                       ]
@@ -832,24 +1054,32 @@
               "designation": "Deputy Director Lahore Region",
               "shortform": "DD(LHR)",
               "scale": "Bs-18",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "Lahore Region",
               "subordinates": [
                 {
                   "designation": "Assistant Director Lahore Region",
                   "shortform": "AD(LHR)",
                   "scale": "Bs-17",
+                  "email": "@punjab.gov.pk",
+                  "status" : "active",
                   "posting": "Lahore Region",
                   "subordinates": [
                     {
                       "designation": "Suprintendent Lahore Region",
                       "shortform": "Suprintendent(LHR)",
                       "scale": "BS-17",
+                      "email": "@punjab.gov.pk",
+                      "status" : "active",
                       "posting": "Lahore Region",
                       "subordinates": [
                         {
                           "designation": "Assistant Lahore Region",
                           "shortform": "Assistant(LHR)",
                           "scale": "BS-16",
+                          "email": "@punjab.gov.pk",
+                          "status" : "active",
                           "posting": "Lahore Region"
                         }
                       ]
@@ -860,18 +1090,24 @@
                   "designation": "Assistant Director SIALKOT",
                   "shortform": "AD(SLK)",
                   "scale": "Bs-17",
+                  "email": "@punjab.gov.pk",
+                  "status" : "active",
                   "posting": "SIALKOT",
                   "subordinates": [
                     {
                       "designation": "Suprintendent SIALKOT",
                       "shortform": "Suprintendent(SLK)",
                       "scale": "BS-17",
+                      "email": "@punjab.gov.pk",
+                      "status" : "active",
                       "posting": "SIALKOT",
                       "subordinates": [
                         {
                           "designation": "Assistant SIALKOT",
                           "shortform": "Assistant(SLK)",
                           "scale": "BS-16",
+                          "email": "@punjab.gov.pk",
+                          "status" : "active",
                           "posting": "SIALKOT"
                         }
                       ]
@@ -882,18 +1118,24 @@
                   "designation": "Assistant Director SAHIWAL",
                   "shortform": "AD(SWL)",
                   "scale": "Bs-17",
+                  "email": "@punjab.gov.pk",
+                  "status" : "active",
                   "posting": "SAHIWAL",
                   "subordinates": [
                     {
                       "designation": "Suprintendent SAHIWAL",
                       "shortform": "Suprintendent(SWL)",
                       "scale": "BS-17",
+                      "email": "@punjab.gov.pk",
+                      "status" : "active",
                       "posting": "SAHIWAL",
                       "subordinates": [
                         {
                           "designation": "Assistant SAHIWAL",
                           "shortform": "Assistant(SWL)",
                           "scale": "BS-16",
+                          "email": "@punjab.gov.pk",
+                          "status" : "active",
                           "posting": "SAHIWAL"
                         }
                       ]
@@ -910,18 +1152,24 @@
       "designation": "Deputy Director Large Scale Mining",
       "shortform": "DD(LSM)",
       "scale": "Bs-18",
+      "email": "@punjab.gov.pk",
+      "status" : "active",
       "posting": "Head Quarters",
       "subordinates": [
         {
           "designation": "Assistant Director EL",
           "shortform": "AD EL",
           "scale": "Bs-17",
+          "email": "@punjab.gov.pk",
+          "status" : "active",
           "posting": "Head Quarters",
           "subordinates": [
             {
               "designation": "Suprintendent Large Scale Mining",
               "shortform": "Suprintendent LSM",
               "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status" : "active",
               "posting": "Head Quarters"
             }
           ]
@@ -930,6 +1178,8 @@
           "designation": "Assistant Director ML",
           "shortform": "AD ML",
           "scale": "Bs-17",
+          "email": "@punjab.gov.pk",
+          "status" : "active",
           "posting": "Head Quarters"
         }
       ]
@@ -938,11 +1188,15 @@
       "designation": "Assistant Director Appeal",
       "shortform": "AD Appeal",
       "scale": "Bs-17",
+      "email": "@punjab.gov.pk",
+      "status" : "active",
       "posting": "Head Quarters",
       "subordinates": [
         {
           "designation": "Superintendent Appeal",
           "scale": "Bs-17",
+          "email": "@punjab.gov.pk",
+          "status" : "active",
           "posting": "Head Quarters"
         }
       ]
