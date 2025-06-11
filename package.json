@@ -4,11 +4,14 @@
   "description": "The editor for diagram is https://jsoncrack.com/editor",
   "main": "index.js",
   "scripts": {
-    "build:ts": "tsc --watch",
-    "build:css": "tailwindcss -i ./styles/tailwind.css -o ./dist/output.css --watch",
+    "build:ts": "tsc",
+    "build:css": "tailwindcss -i ./styles/tailwind.css -o ./dist/output.css",
     "start": "live-server"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.0.0"
+  }
 }

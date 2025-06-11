@@ -1,16 +1,19 @@
-[
+
 {
-  "designation": "Director General Mines & Minerals | DGMM",
+  "designation": "Director General Mines & Minerals",
+  "shortform": "DGMM",
   "scale": "BS-20",
   "posting": "Head Quarters",
   "subordinates": [
     {
-      "designation": "Personal Assistant to Director General | PA TO DG | PA(DG)",
+      "designation": "Personal Assistant to Director General Mines & Minerals",
+      "shortform": "PA TO DGMM",
       "scale": "BS-16",
       "posting": "Head Quarters"
     },
     {
-      "designation": "Suprintendent Receipt and Issue | Suprintendent(R&I)",
+      "designation": "Suprintendent Receipt and Issue",
+      "shortform": "Suprintendent(R&I)",
       "scale": "BS-17",
       "posting": "Head Quarters"
     },
@@ -32,48 +35,56 @@
           ]
         },
         {
-          "designation": "Manager GM",
+          "designation": "Manager Geological Mapping",
+          "shortform": "Manager GM",
           "scale": "Bs-18",
           "posting": "Head Quarters",
           "subordinates": [
             {
-              "designation": "Deputy Manager GM",
+              "designation": "Deputy Manager Geological Mapping",
+              "shortform": "Deputy Manager GM",
               "scale": "Bs-17",
               "posting": "Head Quarters"
             }
           ]
         },
         {
-          "designation": "Manager GP",
+          "designation": "Manager Geophysics",
+          "shortform": "Manager GP",
           "scale": "Bs-18",
           "posting": "Head Quarters",
           "subordinates": [
             {
-              "designation": "Deputy Manager GP",
+              "designation": "Deputy Manager Geophysics",
+              "shortform": "Deputy Manager GP",
               "scale": "Bs-17",
               "posting": "Head Quarters"
             }
           ]
         },
         {
-          "designation": "Manager GC",
+          "designation": "Manager Geochemistry",
+          "shortform": "Manager GC",
           "scale": "Bs-18",
           "posting": "Head Quarters",
           "subordinates": [
             {
-              "designation": "Deputy Manager GC",
+              "designation": "Deputy Manager Geochemistry",
+              "shortform": "Deputy Manager GC",
               "scale": "Bs-17",
               "posting": "Head Quarters"
             }
           ]
         },
         {
-          "designation": "Manager BS",
+          "designation": "Manager Basin Studies",
+          "shortform": "Manager BS",
           "scale": "Bs-18",
           "posting": "Head Quarters",
           "subordinates": [
             {
-              "designation": "Deputy Manager BS",
+              "designation": "Deputy Manager Basin Studies",
+              "shortform": "Deputy Manager BS",
               "scale": "Bs-17",
               "posting": "Head Quarters"
             }
@@ -81,53 +92,63 @@
         },
         {
           "designation": "Assistant Engineer Mechnical",
+          "shortform": "AE Mech",
           "scale": "Bs-17",
           "posting": "Head Quarters"
         },
         {
           "designation": "Assistant Engineer Electrical",
+          "shortform": "AE Elec",
           "scale": "Bs-17",
           "posting": "Head Quarters"
         }
       ]
     },
     {
-      "designation": "Director GIS",
+      "designation": "Director Geographical Information System",
+      "shortform": "Director GIS",
       "scale": "BS-19",
       "posting": "Head Quarters",
       "subordinates": [
         {
-          "designation": "Manager GIS",
+          "designation": "Manager Geographical Information System",
+          "shortform": "Manager GIS",
           "scale": "Bs-18",
           "posting": "Head Quarters",
           "subordinates": [
             {
               "designation": "Computer Programmer",
+              "shortform": "CP",
+              "scale": "Bs-16",
+              "posting": "Head Quarters"
+            },
+            {
+              "designation": "Geographical Information System Development Officer 1",
+              "shortform": "GIS DO 1",
               "scale": "Bs-17",
               "posting": "Head Quarters"
             },
             {
-              "designation": "GIS Development Officer 1",
+              "designation": "Geographical Information System Development Officer 2",
+              "shortform": "GIS DO 2",
               "scale": "Bs-17",
               "posting": "Head Quarters"
             },
             {
-              "designation": "GIS Development Officer 2",
+              "designation": "Geographical Information System Development Officer 3",
+              "shortform": "GIS DO 3",
               "scale": "Bs-17",
               "posting": "Head Quarters"
             },
             {
-              "designation": "GIS Development Officer 3",
+              "designation": "Geographical Information System Development Officer 4",
+              "shortform": "GIS DO ",
               "scale": "Bs-17",
               "posting": "Head Quarters"
             },
             {
-              "designation": "GIS Development Officer 4",
-              "scale": "Bs-17",
-              "posting": "Head Quarters"
-            },
-            {
-              "designation": "GIS Development Officer 5",
+              "designation": "Geographical Information System Development Officer 5",
+              "shortform": "GIS DO 5",
               "scale": "Bs-17",
               "posting": "Head Quarters"
             }
@@ -137,32 +158,37 @@
     },
     {
       "designation": "Director Information Promotion & Service ",
+      "shortform": "DIPS",
       "scale": "BS-19",
       "posting": "Head Quarters",
       "subordinates": [
         {
-          "designation": "Manager Information Technology| Manger IT",
+          "designation": "Manager Information Technology",
+          "shortform": "Manager IT",
           "scale": "Bs-18",
           "posting": "Head Quarters",
           "subordinates": [
             {
               "designation": "Computer Programmer",
-              "scale": "Bs-17",
+              "shortform": "CP",
+              "scale": "Bs-16",
               "posting": "Head Quarters"
             },
             {
               "designation": "Network Administrator",
+              "shortform": "NA",
               "scale": "Bs-17",
               "posting": "Head Quarters"
             },
             {
               "designation": "Database Administrator",
+              "shortform": "DBA",
               "scale": "Bs-17",
               "posting": "Head Quarters"
             },
             {
               "designation": "Hardware Technician",
-              "scale": "Bs-17",
+              "scale": "Bs-16",
               "posting": "Head Quarters"
             },
             {
@@ -182,8 +208,30 @@
         {
           "designation": "Personal Assistant to Small Mines Assistance / Titles | PA To Director SMA/T | PA TO LA Small Scale Mining",
           "shortform": "PA(Director SMA/T)",
-          "scale": "BS-16",
+          "scale": "BS-14",
           "posting": "Head Quarters"
+        },
+         {
+          "designation": "Deputy Director Account Officer",
+          "shortform": "DD(Account)",
+          "scale": "Bs-18",
+          "posting": "Head Quarters",
+          "subordinates": [
+            {
+              "designation": "Account Officer Minor Minerals",
+              "shortform": "Account Officer Minor Minerals",
+              "scale": "Bs-16",
+              "posting": "Head Quarters",
+              "subordinates": []
+            },
+            {
+              "designation": "Account Officer Major Minerals",
+              "shortform": "Account Officer Major Minerals",
+              "scale": "Bs-16",
+              "posting": "Head Quarters",
+              "subordinates": []
+            }
+          ]
         },
         {
           "designation": "Deputy Director AUCTION HQ",
@@ -403,10 +451,26 @@
       "posting": "Head Quarters",
       "subordinates": [
         {
-          "designation": "Assistant Director Admin",
-          "shortform": "AD(Admin)",
-          "scale": "Bs-17",
-          "posting": "Head Quarters"
+          "designation": "Deputy Director Admin",
+          "shortform": "DD (Admin)",
+          "scale": "Bs-18",
+          "posting": "Head Quarters",
+          "subordinates": [
+            {
+              "designation": "Assistant Director Administration",
+              "shortform": "AD(Admin)",
+              "scale": "Bs-17",
+              "posting": "Head Quarters",
+              "subordinates": [
+                {
+                  "designation": "Suprintendent Admin",
+                  "shortform": "Suprintendent(Admin)",
+                  "scale": "Bs-17",
+                  "posting": "Head Quarters"
+                }
+              ]
+            }
+          ]
         },
         {
           "designation": "Assistant Director Establishment",
@@ -415,22 +479,38 @@
           "posting": "Head Quarters"
         },
         {
+          "designation": "Assistant Director Budget & Accounts",
+          "shortform": "AD(B&A)",
+          "scale": "Bs-17",
+          "posting": "Head Quarters",
+          "subordinates": [
+            {
+              "designation": "Suprintendent Budget & Accounts",
+              "shortform": "Suprintendent(B&A)",
+              "scale": "Bs-17",
+              "posting": "Head Quarters"
+            }
+          ]
+        },
+        {
           "designation": "Account OFFICER Drawing & Disbursement",
           "shortform": "Account Officer (DDO)",
           "scale": "Bs-17",
           "posting": "Head Quarters"
         },
         {
-          "designation": "Assistant Director P&C",
+          "designation": "Assistant Director Planning & Coordination",
           "shortform": "AD (P&C)",
           "scale": "Bs-17",
-          "posting": "Head Quarters"
-        },
-        {
-          "designation": "Suprintendent Budget & Accounts",
-          "shortform": "Suprintendent (B&A)",
-          "scale": "Bs-17",
-          "posting": "Head Quarters"
+          "posting": "Head Quarters",
+          "subordinates":[
+            {
+              "designation": "Suprintendent Planning & Coordination",
+              "shortform": "Suprintendent (P&C)",
+              "scale": "Bs-17",
+              "posting": "Head Quarters"
+            }
+          ]
         },
         {
           "designation": "AUDIT OFFICER",
@@ -488,14 +568,7 @@
                   "shortform": "Suprintendent (HQR)",
                   "scale": "BS-17",
                   "posting": "Head Quarters",
-                  "subordinates": [
-                    {
-                      "designation": "Assistant Director HQR(Minor Minerals",
-                      "shortform": "Assistant(HQR)",
-                      "scale": "BS-16",
-                      "posting": "Head Quarters"
-                    }
-                  ]
+                  "subordinates": []
                 }
               ]
             }
@@ -853,4 +926,3 @@
     }
   ]
 }
-]
