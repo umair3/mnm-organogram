@@ -1,5 +1,3 @@
-// main.ts
-
 interface OrgNode {
   prevdesignation?: string;
   designation: string;
@@ -7,7 +5,7 @@ interface OrgNode {
   email: string;
   status: string;
   posting: string;
-  prevshortform?:string;
+  prevshortform?: string;
   shortform: string;
   subordinates?: OrgNode[];
 }
@@ -16,7 +14,7 @@ const getStatusColor = (status: string): string => {
   if (!status) return 'text-red-500';
   switch (status.toLowerCase()) {
     case 'create': return 'text-purple-500';
-    case 'update': return 'text-yellow-500';
+    case 'update': return 'text-yellow-900';
     case 'delete': return 'text-red-500';
     case 'active': return 'text-green-500';
     case 'inactive': return 'text-orange-500';
@@ -29,20 +27,28 @@ const createNode = (node: OrgNode): HTMLElement => {
   box.className = 'text-[10px] border rounded bg-white p-0.5 shadow-sm m-0.5';
 
   box.innerHTML = `
-    <div class="font-semibold text-blue-600 leading-none">
-      ${node.prevdesignation? '<s>'+node.prevdesignation+'</s>'+node.prevdesignation: node.designation} ${node.prevshortform ? ' | '+ '<s>'+node.prevshortform+'</s>' + node.shortform : node.shortform} (${node.scale})
+ <div class="font-semibold text-blue-600 leading-none">
+  ${node.prevdesignation ? '<s>' + node.prevdesignation + '</s> ' : ''}${node.designation}
+  ${' | '}
+  ${node.prevshortform ? '<s>' + node.prevshortform + '</s> ' : ''}${node.shortform}
+  (${node.scale})
+</div>
+
+    <div class="text-gray-500 leading-none mt-0.5">
+      Posting: ${node.posting}, Status: <span class="${getStatusColor(node.status)}"><b>${node.status}</b></span>, Email: ${node.email}
     </div>
-    <div class="text-gray-500 leading-none mt-0.5">Posting: ${node.posting}, Status: <span class="${getStatusColor(node.status)}"><b>${node.status}</b></span>, Email: ${node.email}</div>
   `;
 
+  const container = document.createElement('div');
+  container.className = 'ml-1 pl-1 border-l border-gray-300 mt-0.5';
+
+  container.appendChild(box);
+
   if (node.subordinates?.length) {
-    const children = document.createElement('div');
-    children.className = 'ml-1 pl-1 border-l border-gray-300 mt-0.5';
-    node.subordinates.forEach(child => children.appendChild(createNode(child)));
-    box.appendChild(children);
+    node.subordinates.forEach(child => container.appendChild(createNode(child)));
   }
 
-  return box;
+  return container;
 };
 
 document.addEventListener('DOMContentLoaded', async () => {
@@ -50,7 +56,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   if (!root) return console.error('Root element not found');
 
   try {
-    const res = await fetch('https://run.mocky.io/v3/18ab1b2f-5439-43ab-b3ad-637ec7cf592c');
+    const res = await fetch('https://run.mocky.io/v3/d679ea83-83e1-484d-9764-bdbdb54946de');
     if (!res.ok) throw new Error(`HTTP error! Status: ${res.status}`);
     const data: OrgNode = await res.json();
     root.appendChild(createNode(data));
@@ -58,3 +64,4 @@ document.addEventListener('DOMContentLoaded', async () => {
     console.error('Error loading organogram:', err);
   }
 });
+
