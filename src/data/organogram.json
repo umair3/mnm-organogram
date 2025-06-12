@@ -561,7 +561,7 @@
         },
         {
           "prevdesignation":"Deputy Director (CHAKWAL)",
-          "designation": "Deputy Director CHAKWAL",
+          "designation": "Deputy Director Chakwal",
           "previousshortform": "DY DIRECTOR CHAKWAL(DY DIRECTOR CHAKWAL)",
           "shortform": "DD(CKL)",
           "scale": "Bs-18",
@@ -580,7 +580,7 @@
               "posting": "Chakwal",
               "subordinates": [
                 {
-                  "designation": "Suprintendent CHAKWAL",
+                  "designation": "Suprintendent Chakwal",
                   "shortform": "Suprintendent(CKL)",
                   "scale": "Bs-17",
                   "email": "@punjab.gov.pk",
@@ -593,7 +593,7 @@
         },
         {
           "prevdesignation": "Deputy Director (MIANWALI)",
-          "designation": "Deputy Director MIANWALI",
+          "designation": "Deputy Director Mianwali",
           "previousshortform": "DY DIRECTOR (MIANWALI)(DY DIRECTOR MIANWALI)",
           "shortform": "DD(MLI)",
           "scale": "Bs-18",
@@ -603,7 +603,7 @@
           "subordinates": [
             {
               "prevdesignation": "Assitant Director (Mianwali)",
-              "designation": "Assistant Director MIANWALI HQ",
+              "designation": "Assistant Director Mianwali HQ",
               "previousshortform": "ASSISTANT DIRECTOR (MIANWALI)(ASSISTANT DIRECTOR MIANWALI)",
               "shortform": "AD(MLI)",
               "scale": "Bs-17",
@@ -612,7 +612,7 @@
               "posting": "Mianwali",
               "subordinates": [
                 {
-                  "designation": "Suprintendent MIANWALI",
+                  "designation": "Suprintendent Mianwali",
                   "shortform": "Suprintendent(MLI)",
                   "scale": "Bs-17",
                   "email": "@punjab.gov.pk",
@@ -620,8 +620,8 @@
                   "posting": "Mianwali"
                 },
                 {
-                  "designation": "Geologist MIANWALI",
-                  "shortform": "Geologist(MIANWALI)",
+                  "designation": "Geologist Mianwali",
+                  "shortform": "Geologist(Mianwali)",
                   "scale": "Bs-17",
                   "email": "@punjab.gov.pk",
                   "status" : "create",
@@ -633,7 +633,7 @@
         },
         {
           "prevdesignation": "Deputy Director (Khushab)",
-          "designation": "Deputy Director KHUSHAB",
+          "designation": "Deputy Director Khushab",
           "previousshortform": "DY DIRECTOR (KHUSHAB)(DY DIRECTOR KHUSHAB)",
           "shortform": "DD(KHS)",
           "scale": "Bs-18",
@@ -643,7 +643,7 @@
           "subordinates": [
             {
               "prevdesignation": "Assitant Director (Khushab)",
-              "designation": "Assistant Director KHUSHAB HQ",
+              "designation": "Assistant Director Khushab HQ",
               "previousshortform": "ASSISTANT DIRECTOR (KHUSHAB)(ASSISTANT DIRECTOR KHUSHAB)",
               "shortform": "AD(KHB)",
               "scale": "Bs-17",
@@ -652,7 +652,7 @@
               "posting": "khushab",
               "subordinates": [
                 {
-                  "designation": "Suprintendent KHUSHAB",
+                  "designation": "Suprintendent Khushab",
                   "shortform": "Suprintendent(KHB)",
                   "scale": "Bs-17",
                   "email": "@punjab.gov.pk",
@@ -661,7 +661,7 @@
                 },
                 {
                   "prevdesignation": "Geologist (Khushab)",
-                  "designation": "Geologist KHUSHAB",
+                  "designation": "Geologist Khushab",
                   "previousshortform": "GEOLOGIST KHUSHAB (GEOLOGIST KHB)",
                   "shortform": "Geologist(KHB)",
                   "scale": "Bs-17",
@@ -689,7 +689,7 @@
            "prevdesignation": "Deputy Director (Admin)",
           "designation": "Deputy Director Admin",
           "previousshortform": "DY DIRECTOR ADMN (DY DIRECTOR ADMN)",
-          "shortform": "DD (Admin)",
+          "shortform": "DD(Admin)",
           "scale": "Bs-18",
           "email": "ddadmn.dgmm@punjab.gov.pk",
           "status" : "update",
@@ -707,7 +707,7 @@
               "subordinates": [
                 {
                   "designation": "Suprintendent Admin",
-                  "shortform": "Suprintendent(Admin)",
+                  "shortform": "SA",
                   "scale": "Bs-17",
                   "email": "@punjab.gov.pk",
                   "status" : "create",
@@ -737,7 +737,7 @@
           "posting": "Head Quarters",
           "subordinates": [
             {
-              "prevdesignation": "Suprintendent (B&A)",
+              "prevdesignation": "Suprintendent(B&A)",
               "designation": "Suprintendent Budget & Accounts",
               "previousshortform":"Superintendent(B&A)(Superintendent B&A)",
               "shortform": "Suprintendent(B&A)",
@@ -757,10 +757,10 @@
           "posting": "Head Quarters"
         },
         {
-          "prevdesignation": "Assistant Director (P&C)",
+          "prevdesignation": "Assistant Director(P&C)",
           "designation": "Assistant Director Planning & Coordination",
           "previousshortform":"Assitant Director (P&C)(Assitant Director P&C)",
-          "shortform": "AD (P&C)",
+          "shortform": "AD(P&C)",
           "scale": "Bs-17",
           "email": "adpnc.dgmm@punjab.gov.pk",
           "status" : "update",
@@ -768,7 +768,7 @@
           "subordinates":[
             {
               "designation": "Suprintendent Planning & Coordination",
-              "shortform": "Suprintendent (P&C)",
+              "shortform": "Suprintendent(P&C)",
               "scale": "Bs-17",
               "email": "@punjab.gov.pk",
               "status" : "create",
@@ -798,7 +798,7 @@
       "posting": "Head Quarters",
       "subordinates": [
         {
-          "prevdesignation": "Manager (E&F)",
+          "prevdesignation": "Manager(E&F)",
           "designation": "Manager Environmental Facilitation",
           "previousshortform":"MANAGER(E&F)(MANAGER E&F)",
           "shortform": "Manager EF",
@@ -811,7 +811,7 @@
               "prevdesignation":"Deputy Manager",
               "designation": "Deputy Manager Environmental Facilitation",
               "previousshortform":"Deputy Manager(EF)(DY MANAGER)",
-              "shortform": "Deputy MAnager EF",
+              "shortform": "Deputy Manager EF",
               "scale": "BS-17",
               "email": "dymef.dgmm@punjab.gov.pk",
               "status" : "update",
@@ -851,17 +851,17 @@
           "subordinates": [
             {
               "prevdesignation":"Assistant Director (HQR)",
-              "designation": "Assistant Director HQR(Minor Minerals",
+              "designation": "Assistant Director HQR(Minor Minerals)",
               "previousshortform":"ASSITANT DIRECTOR (H.Q.R)(ASSITANT DIRECTOR H.Q.R)",
-              "shortform": "AD(HQR)",
+              "shortform": "AD HQR(MM)",
               "scale": "Bs-17",
               "email": "admm.dgmm@punjab.gov.pk",
               "status" : "update",
               "posting": "Head Quarters",
               "subordinates": [
                 {
-                  "designation": "Suprintendent HQ (Minor and Minerals)",
-                  "shortform": "Suprintendent (HQR)",
+                  "designation": "Suprintendent HQR(Minor and Minerals)",
+                  "shortform": "Suprintendent HQR(MM)",
                   "scale": "BS-17",
                   "email": "@punjab.gov.pk",
                   "status" : "create",
@@ -874,39 +874,39 @@
         },
         {
           "prevdesignation": "Deputy Director (D.G.Khan)",
-          "designation": "Deputy Director DG KHAN",
+          "designation": "Deputy Director DG Khan",
           "prevshortform":"DY DIRECTOR(D.G.KHAN)(DY DIRECTOR DGKHAN)",
           "shortform": "DD(DGK)",
           "scale": "Bs-18",
           "email": "dddgk.dgmm@punjab.gov.pk",
           "status" : "update",
-          "posting": "DG KHAN",
+          "posting": "DG Khan",
           "subordinates": [
             {
               "prevdesignation": "Assistant Director (D.G.Khan)",
-              "designation": "Assistant Director DG KHAN",
+              "designation": "Assistant Director DG Khan",
               "prevshortform":"ASSISTANT DIRECTOR(DGK)(ASSITANT DIRECTOR DGK)",
               "shortform": "AD(DGK)",
               "scale": "Bs-17",
               "email": "addgk.dgmm@punjab.gov.pk",
               "status" : "update",
-              "posting": "DG KHAN",
+              "posting": "DG Khan",
               "subordinates": [
                 {
-                  "designation": "Suprintendent DG KHAN",
+                  "designation": "Suprintendent DG Khan",
                   "shortform": "Suprintendent DGK",
                   "scale": "BS-17",
                   "email": "@punjab.gov.pk",
                   "status" : "create",
-                  "posting": "DG KHAN",
+                  "posting": "DG Khan",
                   "subordinates": [
                     {
-                      "designation": "Assistant DG KHAN",
+                      "designation": "Assistant DG Khan",
                       "shortform": "Assistant(DGK)",
                       "scale": "BS-16",
                       "email": "@punjab.gov.pk",
                       "status" : "create",
-                      "posting": "DG KHAN"
+                      "posting": "DG Khan"
                     }
                   ]
                 }
@@ -916,39 +916,39 @@
         },
         {
           "prevdesignation": "Deputy Director (Multan)",
-          "designation": "Deputy Director MULTAN",
+          "designation": "Deputy Director Multan",
           "prevshortform":"DY DIRECTOR(MULTAN)(DY DIRECTOR MULTAN)",
           "shortform": "DD(MNT)",
           "scale": "Bs-18",
           "email": "ddmlt.dgmm@punjab.gov.pk",
           "status" : "update",
-          "posting": "MULTAN",
+          "posting": "Multan",
           "subordinates": [
             {
               "prevdesignation": "Assistant Director (Multan)",
-              "designation": "Assistant Director MULTAN",
+              "designation": "Assistant Director Multan",
               "previousshortform":"DY DIRECTOR (MULTAN)(ASSISTANT DIRECTOR MULTAN)",
               "shortform": "AD(MNT)",
               "scale": "Bs-17",
               "email": "admlt.dgmm@punjab.gov.pk",
               "status" : "update",
-              "posting": "MULTAN",
+              "posting": "Multan",
               "subordinates": [
                 {
-                  "designation": "Suprintendent MULTAN",
-                  "shortform": "Suprintendent (MNT)",
+                  "designation": "Suprintendent Multan",
+                  "shortform": "Suprintendent(MNT)",
                   "scale": "BS-17",
                   "email": "@punjab.gov.pk",
                   "status" : "create",
-                  "posting": "MULTAN",
+                  "posting": "Multan",
                   "subordinates": [
                     {
-                      "designation": "Assistant MULTAN",
+                      "designation": "Assistant Multan",
                       "shortform": "Assistant(MNT)",
                       "scale": "BS-16",
                       "email": "@punjab.gov.pk",
                       "status" : "create",
-                      "posting": "MULTAN"
+                      "posting": "Multan"
                     }
                   ]
                 }
@@ -956,29 +956,29 @@
             },
             {
               "prevdesignation": "Assistant Director (Bahawalpur)",
-              "designation": "Assistant Director BAHAWALPUR",
+              "designation": "Assistant Director Bahawalpur",
               "previousshortform":"ASSITANT DIRECTOR (BWP)(ASSITANT DIRECTOR BWP)",
               "shortform": "AD(BWP)",
               "scale": "Bs-17",
               "email": "adbwp.dgmm@punjab.gov.pk",
               "status" : "update",
-              "posting": "BAHAWALPUR",
+              "posting": "Bahawalpur",
               "subordinates": [
                 {
-                  "designation": "Suprintendent BAHAWALPUR",
+                  "designation": "Suprintendent Bahawalpur",
                   "shortform": "Suprintendent(BWP)",
                   "scale": "BS-17",
                   "email": "@punjab.gov.pk",
                   "status" : "create",
-                  "posting": "BAHAWALPUR",
+                  "posting": "Bahawalpur",
                   "subordinates": [
                     {
-                      "designation": "Assistant BAHAWALPUR",
+                      "designation": "Assistant Bahawalpur",
                       "shortform": "Assistant(BWP)",
                       "email": "@punjab.gov.pk",
                       "status" : "create",
                       "scale": "BS-16",
-                      "posting": "BAHAWALPUR"
+                      "posting": "Bahawalpur"
                     }
                   ]
                 }
@@ -988,39 +988,39 @@
         },
         {
           "prevdesignation": "Deputy Director (Rawalpindi)",
-          "designation": "Deputy Director RAWALPINDI",
+          "designation": "Deputy Director Rawalpindi",
           "prevshortform": "DY DIRECTOR (RAWALPINDI)(DY DIRECTOR RAWALPINDI)",
           "shortform": "DD(RWP)",
           "scale": "Bs-18",
           "email": "ddrwp.dgmm@punjab.gov.pk",
           "status" : "update",
-          "posting": "RAWALPINDI",
+          "posting": "Rawalpindi",
           "subordinates": [
             {
               "prevdesignation": "Assistant Director (Rawalpindi)",
-              "designation": "Assistant Director RAWALPINDI",
+              "designation": "Assistant Director Rawalpindi",
               "previousshortform": "ASSITANT DIRECTOR (RAWALPINDI)(ASSITANT DIRECTOR RAWALPINDI)",
               "shortform": "AD(RWP)",
               "scale": "Bs-17",
               "email": "adrwp.dgmm@punjab.gov.pk",
               "status" : "update",
-              "posting": "RAWALPINDI",
+              "posting": "Rawalpindi",
               "subordinates": [
                 {
-                  "designation": "Suprintendent RAWALPINDI",
+                  "designation": "Suprintendent Rawalpindi",
                   "shortform": "Suprintendent(RWP)",
                   "scale": "BS-17",
                   "email": "@punjab.gov.pk",
                   "status" : "create",
-                  "posting": "RAWALPINDI",
+                  "posting": "Rawalpindi",
                   "subordinates": [
                     {
-                      "designation": "Assistant RAWALPINDI",
+                      "designation": "Assistant Rawalpindi",
                       "shortform": "Assistant(RWP)",
                       "scale": "BS-16",
                       "email": "@punjab.gov.pk",
                       "status" : "create",
-                      "posting": "RAWALPINDI"
+                      "posting": "Rawalpindi"
                     }
                   ]
                 }
@@ -1028,29 +1028,29 @@
             },
             {
               "prevdesignation": "Assistant Director (Attock)",
-              "designation": "Assistant Director ATTOCK",
+              "designation": "Assistant Director Attock",
               "previousshortform":"ASSISTANT DIRECTOR (ATK)(ASSISTANT DIRECTOR ATK)",
               "shortform": "AD(ATK)",
               "scale": "Bs-17",
               "email": "adatk.dgmm@punjab.gov.pk",
               "status" : "update",
-              "posting": "ATTOCK",
+              "posting": "Attock",
               "subordinates": [
                 {
-                  "designation": "Suprintendent ATTOCK",
+                  "designation": "Suprintendent Attock",
                   "shortform": "Suprintendent(ATK)",
                   "scale": "BS-17",
                   "email": "@punjab.gov.pk",
                   "status" : "create",
-                  "posting": "ATTOCK",
+                  "posting": "Attock",
                   "subordinates": [
                     {
-                      "designation": "Assistant ATTOCK",
+                      "designation": "Assistant Attock",
                       "shortform": "Assistant(ATK)",
                       "scale": "BS-16",
                       "email": "@punjab.gov.pk",
                       "status" : "create",
-                      "posting": "ATTOCK"
+                      "posting": "Attock"
                     }
                   ]
                 }
@@ -1058,29 +1058,29 @@
             },
             {
               "prevdesignation": "Assistant Director (Jhelum)",
-              "designation": "Assistant Director JEHLUM",
+              "designation": "Assistant Director Jhelum",
               "previousshortform":"ASSITANT DIRECTOR (JLM)(ASSITANT DIRECTOR JLM)",
               "shortform": "AD(JLM)",
               "scale": "Bs-17",
               "email": "adjlm.dgmm@punjab.gov.pk",
               "status" : "update",
-              "posting": "JEHLUM",
+              "posting": "Jhelum",
               "subordinates": [
                 {
-                  "designation": "Suprintendent JEHLUM",
+                  "designation": "Suprintendent Jhelum",
                   "shortform": "Suprintendent(JLM)",
                   "scale": "BS-17",
                   "email": "@punjab.gov.pk",
                   "status" : "create",
-                  "posting": "JEHLUM",
+                  "posting": "Jhelum",
                   "subordinates": [
                     {
-                      "designation": "Assistant JEHLUM",
+                      "designation": "Assistant Jhelum",
                       "shortform": "Assistant(JLM)",
                       "scale": "BS-16",
                       "email": "@punjab.gov.pk",
                       "status" : "create",
-                      "posting": "JEHLUM"
+                      "posting": "Jhelum"
                     }
                   ]
                 }
@@ -1090,39 +1090,39 @@
         },
         {
            "prevdesignation": "Deputy Director (Sargodha)",
-          "designation": "Deputy Director SARGODHA",
+          "designation": "Deputy Director Sargodha",
           "prevshortform":"DY DIRECTOR (SARGODHA)(DY DIRECTOR SARGODHA)",
           "shortform": "DD(SRG)",
           "scale": "Bs-18",
           "email": "ddsgd.dgmm@punjab.gov.pk",
           "status" : "update",
-          "posting": "SARGODHA",
+          "posting": "Sargodha",
           "subordinates": [
             {
               "prevdesignation": "Assistant Director (Sargodha)",
-              "designation": "Assistant Director SARGODHA",
+              "designation": "Assistant Director Sargodha",
               "previousshortform":"ASSITANT DIRECTOR(SARGODHA)(ASSISTANT DIRECTOR SARGODHA)",
               "shortform": "AD(SRG)",
               "scale": "Bs-17",
               "email": "adsgd.dgmm@punjab.gov.pk",
               "status" : "update",
-              "posting": "SARGODHA",
+              "posting": "Sargodha",
               "subordinates": [
                 {
-                  "designation": "Suprintendent SARGODHA",
+                  "designation": "Suprintendent Sargodha",
                   "shortform": "Suprintendent(SRG)",
                   "scale": "BS-17",
                   "email": "@punjab.gov.pk",
                   "status" : "create",
-                  "posting": "SARGODHA",
+                  "posting": "Sargodha",
                   "subordinates": [
                     {
-                      "designation": "Assistant SARGODHA",
+                      "designation": "Assistant Sargodha",
                       "shortform": "Assistant(SRG)",
                       "scale": "BS-16",
                       "email": "@punjab.gov.pk",
                       "status" : "create",
-                      "posting": "SARGODHA"
+                      "posting": "Sargodha"
                     }
                   ]
                 }
@@ -1130,29 +1130,29 @@
             },
             {
               "prevdesignation": "Assistant Director (Chiniot)",
-              "designation": "Assistant Director CHINIOT",
+              "designation": "Assistant Director Chiniot",
               "previousshortform":"ASSITANT DIRECTOR (CHINIOT)(ASSISTANT DIRECTOR CHINIOT)",
               "shortform": "AD(CHT)",
               "scale": "Bs-17",
               "email": "adcnt.dgmm@punjab.gov.pk",
               "status" : "update",
-              "posting": "CHINIOT",
+              "posting": "Chiniot",
               "subordinates": [
                 {
-                  "designation": "Suprintendent CHINIOT",
+                  "designation": "Suprintendent Chiniot",
                   "shortform": "Suprintendent(CHT)",
                   "scale": "BS-17",
                   "email": "@punjab.gov.pk",
                   "status" : "create",
-                  "posting": "CHINIOT",
+                  "posting": "Chiniot",
                   "subordinates": [
                     {
-                      "designation": "Assistant CHINIOT",
+                      "designation": "Assistant Chiniot",
                       "shortform": "Assistant(CHT)",
                       "scale": "BS-16",
                       "email": "@punjab.gov.pk",
                       "status" : "create",
-                      "posting": "CHINIOT"
+                      "posting": "Chiniot"
                     }
                   ]
                 }
@@ -1160,39 +1160,39 @@
             },
             {
               "prevdesignation": "Deputy Director (Gujranwala)",
-              "designation": "Deputy Director GUJRANWALA",
+              "designation": "Deputy Director Gujranwala",
               "previousshortform":"DY DIRECTOR (GUJRANWALA)(DY DIRECTOR GUJRANWALA)(ASSISTANT DIRECTOR GUJRANWALA)",
               "shortform": "DD(GRW)",
               "scale": "Bs-18",
               "email": "ddgrw.dgmm@punjab.gov.pk",
               "status" : "update",
-              "posting": "GUJRANWALA",
+              "posting": "Gujranwala",
               "subordinates": [
                 {
                   "prevdesignation": "Assistant Director (Gujranwala)",
-                  "designation": "Assistant Director GUJRANWALA",
+                  "designation": "Assistant Director Gujranwala",
                   "previousshortform":"ASSITANT DIRECTOR (GUJRANWALA)(ASSISTANT DIRECTOR GUJRANWALA)",
                   "shortform": "AD(GRW)",
                   "scale": "Bs-17",
                   "email": "adgrw.dgmm@punjab.gov.pk",
                   "status" : "update",
-                  "posting": "GUJRANWALA",
+                  "posting": "Gujranwala",
                   "subordinates": [
                     {
-                      "designation": "Suprintendent GUJRANWALA",
+                      "designation": "Suprintendent Gujranwala",
                       "shortform": "Suprintendent(GRW)",
                       "scale": "BS-17",
                       "email": "@punjab.gov.pk",
                       "status" : "create",
-                      "posting": "GUJRANWALA",
+                      "posting": "Gujranwala",
                       "subordinates": [
                         {
-                          "designation": "Assistant GUJRANWALA",
+                          "designation": "Assistant Gujranwala",
                           "shortform": "Assistant(GRW)",
                           "scale": "BS-16",
                           "email": "@punjab.gov.pk",
                           "status" : "create",
-                          "posting": "GUJRANWALA"
+                          "posting": "Gujranwala"
                         }
                       ]
                     }
@@ -1201,100 +1201,100 @@
               ]
             },
             {
-               "prevdesignation": "Deputy Director (Lahore)",
-              "designation": "Deputy Director Lahore Region",
+               "prevdesignation": "Deputy Director(Lahore)",
+              "designation": "Deputy Director Lahore",
               "previousshortform":"DY DIRECTOR (LAHORE)(DY DIRECTOR LAHORE)",
               "shortform": "DD(LHR)",
               "scale": "Bs-18",
               "email": "ddlhr.dgmm@punjab.gov.pk",
               "status" : "update",
-              "posting": "Lahore Region",
+              "posting": "Lahore",
               "subordinates": [
                 {
-                  "prevdesignation": "Assistant Director (Lahore)",
-                  "designation": "Assistant Director Lahore Region",
+                  "prevdesignation": "Assistant Director(Lahore)",
+                  "designation": "Assistant Director Lahore",
                   "previousshortform":"ASSISTANT DIRECTOR (LAHORE)(ASSISTANT DIRECTOR LAHORE)",
                   "shortform": "AD(LHR)",
                   "scale": "Bs-17",
                   "email": "adlhr.dgmm@punjab.gov.pk",
                   "status" : "update",
-                  "posting": "Lahore Region",
+                  "posting": "Lahore",
                   "subordinates": [
                     {
-                      "designation": "Suprintendent Lahore Region",
+                      "designation": "Suprintendent Lahore",
                       "shortform": "Suprintendent(LHR)",
                       "scale": "BS-17",
                       "email": "@punjab.gov.pk",
                       "status" : "create",
-                      "posting": "Lahore Region",
+                      "posting": "Lahore",
                       "subordinates": [
                         {
-                          "designation": "Assistant Lahore Region",
+                          "designation": "Assistant Lahore",
                           "shortform": "Assistant(LHR)",
                           "scale": "BS-16",
                           "email": "@punjab.gov.pk",
                           "status" : "create",
-                          "posting": "Lahore Region"
+                          "posting": "Lahore"
                         }
                       ]
                     }
                   ]
                 },
                 {
-                  "prevdesignation": "Assistant Director (Sialkot)",
-                  "designation": "Assistant Director SIALKOT",
+                  "prevdesignation": "Assistant Director(Sialkot)",
+                  "designation": "Assistant Director Sialkot",
                   "previousshortform":"ASSISTANT DIRECTOR (SIALKOT)(ASSISTANT DIRECTOR SLK) ",
                   "shortform": "AD(SLK)",
                   "scale": "Bs-17",
                   "email": "adslk.dgmm@punjab.gov.pk",
                   "status" : "update",
-                  "posting": "SIALKOT",
+                  "posting": "Sialkot",
                   "subordinates": [
                     {
-                      "designation": "Suprintendent SIALKOT",
+                      "designation": "Suprintendent Sialkot",
                       "shortform": "Suprintendent(SLK)",
                       "scale": "BS-17",
                       "email": "@punjab.gov.pk",
                       "status" : "create",
-                      "posting": "SIALKOT",
+                      "posting": "Sialkot",
                       "subordinates": [
                         {
-                          "designation": "Assistant SIALKOT",
+                          "designation": "Assistant Sialkot",
                           "shortform": "Assistant(SLK)",
                           "scale": "BS-16",
                           "email": "@punjab.gov.pk",
                           "status" : "create",
-                          "posting": "SIALKOT"
+                          "posting": "Sialkot"
                         }
                       ]
                     }
                   ]
                 },
                 {
-                   "prevdesignation": "Assistant Director (Sahiwal)",
-                  "designation": "Assistant Director SAHIWAL",
+                   "prevdesignation": "Assistant Director(Sahiwal)",
+                  "designation": "Assistant Director Sahiwal",
                   "previousshortform":"ASSISTANT DIRECTOR (SAHIWAL)(ASSISTANT DIRECTOR SWL)",
                   "shortform": "AD(SWL)",
                   "scale": "Bs-17",
                   "email": "adswl.dgmm@punjab.gov.pk",
                   "status" : "update",
-                  "posting": "SAHIWAL",
+                  "posting": "Sahiwal",
                   "subordinates": [
                     {
-                      "designation": "Suprintendent SAHIWAL",
+                      "designation": "Suprintendent Sahiwal",
                       "shortform": "Suprintendent(SWL)",
                       "scale": "BS-17",
                       "email": "@punjab.gov.pk",
                       "status" : "create",
-                      "posting": "SAHIWAL",
+                      "posting": "Sahiwal",
                       "subordinates": [
                         {
-                          "designation": "Assistant SAHIWAL",
+                          "designation": "Assistant Sahiwal",
                           "shortform": "Assistant(SWL)",
                           "scale": "BS-16",
                           "email": "@punjab.gov.pk",
                           "status" : "create",
-                          "posting": "SAHIWAL"
+                          "posting": "Sahiwal"
                         }
                       ]
                     }
@@ -1307,7 +1307,7 @@
       ]
     },
     {
-       "prevdesignation": "Deputy Director (LSM)",
+       "prevdesignation": "Deputy Director(LSM)",
       "designation": "Deputy Director Large Scale Mining",
       "prevshortform":"Deputy Director(LSM)(LSM)",
       "shortform": "DD(LSM)",
@@ -1317,7 +1317,7 @@
       "posting": "Head Quarters",
       "subordinates": [
         {
-           "prevdesignation": "Assistant Director (EL)",
+           "prevdesignation": "Assistant Director(EL)",
           "designation": "Assistant Director EL",
           "previousshortform":"Assistant Director(EL)(AD-EL)",
           "shortform": "AD EL",
@@ -1360,6 +1360,7 @@
       "subordinates": [
         {
           "designation": "Superintendent Appeal",
+          "shortform": "SA",
           "scale": "Bs-17",
           "email": "@punjab.gov.pk",
           "status" : "create",
