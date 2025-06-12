@@ -27,7 +27,7 @@ const createNode = (node: OrgNode): HTMLElement => {
     <div class="font-semibold text-blue-600 leading-none">
       ${node.designation}${node.shortform ? ' | ' + node.shortform : ''} (${node.scale})
     </div>
-    <div class="text-gray-500 leading-none mt-0.5">Posting: ${node.posting}, Status: <span class="${getStatusColor(node.status)}">${node.status || 'undefined'}</span>, Email: ${node.email}</div>
+    <div class="text-gray-500 leading-none mt-0.5">Posting: ${node.posting}, Status: <span class="${getStatusColor(node.status)}">${node.status || 'inactive'}</span>, Email: ${node.email}</div>
   `;
 
   if (node.subordinates?.length) {
