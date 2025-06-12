@@ -15,8 +15,11 @@ interface OrgNode {
 const getStatusColor = (status: string): string => {
   if (!status) return 'text-red-500';
   switch (status.toLowerCase()) {
-    case 'new': return 'text-yellow-500';
+    case 'create': return 'text-purple-500';
+    case 'update': return 'text-yellow-500';
+    case 'delete': return 'text-red-500';
     case 'active': return 'text-green-500';
+    case 'inactive': return 'text-orange-500';
     default: return 'text-red-500';
   }
 };
@@ -29,7 +32,7 @@ const createNode = (node: OrgNode): HTMLElement => {
     <div class="font-semibold text-blue-600 leading-none">
       ${node.prevdesignation? '<s>'+node.prevdesignation+'</s>'+node.prevdesignation: node.designation} ${node.prevshortform ? ' | '+ '<s>'+node.prevshortform+'</s>' + node.shortform : node.shortform} (${node.scale})
     </div>
-    <div class="text-gray-500 leading-none mt-0.5">Posting: ${node.posting}, Status: <span class="${getStatusColor(node.status)}">${node.status}</span>, Email: ${node.email}</div>
+    <div class="text-gray-500 leading-none mt-0.5">Posting: ${node.posting}, Status: <span class="${getStatusColor(node.status)}"><b>${node.status}</b></span>, Email: ${node.email}</div>
   `;
 
   if (node.subordinates?.length) {
