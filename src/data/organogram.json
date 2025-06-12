@@ -4,6 +4,7 @@
   "shortform": "DGMM",
   "scale": "BS-20",
   "email": "director.general@mnm.punjab.gov.pk",
+  "status" : "active",
   "posting": "Head Quarters",
   "subordinates": [
     {
@@ -11,6 +12,7 @@
       "shortform": "PA TO DGMM",
       "scale": "BS-16",
       "email": "padgmm@punjab.gov.pk",
+      "status" : "active",
       "posting": "Head Quarters"
     },
     {
@@ -18,28 +20,31 @@
       "shortform": "Suprintendent(R&I)",
       "scale": "BS-17",
       "email": "suptrni.dgmn@punjab.gov.pk",
-      "status" : "new",
+      "status" : "create",
       "posting": "Head Quarters"
     },
     {
       "designation": "Director Resource Mapping",
+      "prevshortform": "Director Resource Mapping",
       "shortform": "Director RM",
       "scale": "BS-19",
-      "email": "director.rm.dgmn@punjab.gov.pk",
-      "status" : "new",
+      "email": "director.rm@mnm.punjab.gov.pk",
+      "status" : "update",
       "posting": "Head Quarters",
       "subordinates": [
         {
-          "designation": "Manager Cartography",
-          "shortform": "Manager CG",
+          "prevdesignation": "Manager Cartography & Survey",
+          "designation": "Manager Cartography & Survey",
+          "shortform": "Manager CS",
           "scale": "Bs-18",
           "email": "@punjab.gov.pk",
-          "status" : "active",
+          "status" : "create",
           "posting": "Head Quarters",
           "subordinates": [
             {
-              "designation": "Deputy Manager Cartogrphy",
-              "shortform": "Deputy CG",
+              "prevdesignation": "Deputy Manager CS",
+              "designation": "Deputy Manager Cartogrphy & Survey",
+              "shortform": "Deputy CS",
               "scale": "Bs-17",
               "email": "@punjab.gov.pk",
               "status" : "active",

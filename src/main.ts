@@ -1,11 +1,13 @@
 // main.ts
 
 interface OrgNode {
+  prevdesignation?: string;
   designation: string;
   scale: string;
   email: string;
   status: string;
   posting: string;
+  prevshortform?:string;
   shortform: string;
   subordinates?: OrgNode[];
 }
@@ -25,9 +27,9 @@ const createNode = (node: OrgNode): HTMLElement => {
 
   box.innerHTML = `
     <div class="font-semibold text-blue-600 leading-none">
-      ${node.designation}${node.shortform ? ' | ' + node.shortform : ''} (${node.scale})
+      ${node.prevdesignation? '<s>'+node.prevdesignation+'</s>'+node.prevdesignation: node.designation} ${node.prevshortform ? ' | '+ '<s>'+node.prevshortform+'</s>' + node.shortform : node.shortform} (${node.scale})
     </div>
-    <div class="text-gray-500 leading-none mt-0.5">Posting: ${node.posting}, Status: <span class="${getStatusColor(node.status)}">${node.status || 'inactive'}</span>, Email: ${node.email}</div>
+    <div class="text-gray-500 leading-none mt-0.5">Posting: ${node.posting}, Status: <span class="${getStatusColor(node.status)}">${node.status}</span>, Email: ${node.email}</div>
   `;
 
   if (node.subordinates?.length) {
@@ -45,7 +47,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   if (!root) return console.error('Root element not found');
 
   try {
-    const res = await fetch('https://run.mocky.io/v3/742e00e1-8ab9-4f16-93a4-58ffb744f2d1');
+    const res = await fetch('https://run.mocky.io/v3/18ab1b2f-5439-43ab-b3ad-637ec7cf592c');
     if (!res.ok) throw new Error(`HTTP error! Status: ${res.status}`);
     const data: OrgNode = await res.json();
     root.appendChild(createNode(data));
