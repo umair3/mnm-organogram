@@ -1,10 +1,11 @@
 
 {
+  
   "designation": "Director General Mines & Minerals",
   "shortform": "DGMM",
   "scale": "BS-20",
   "email": "director.general@mnm.punjab.gov.pk",
-  "status" : "active",
+  "status" : "update",
   "posting": "Head Quarters",
   "subordinates": [
     {
