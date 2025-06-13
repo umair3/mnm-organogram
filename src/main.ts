@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   if (!root) return console.error('Root element not found');
 
   try {
-    const res = await fetch('https://run.mocky.io/v3/6b9d28e9-c82b-454c-b91c-3b7ce6566506');
+    const res = await fetch('https://run.mocky.io/v3/b740668d-1e79-4c91-866a-7060ca647654');
     if (!res.ok) throw new Error(`HTTP error! Status: ${res.status}`);
     const data: OrgNode = await res.json();
     root.appendChild(createNode(data));
