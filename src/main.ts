@@ -68,50 +68,34 @@ document.addEventListener('DOMContentLoaded', async () => {
   if (!root) return console.error('Root element not found');
 
   const style = document.createElement('style');
-style.textContent = `
-  /* Keep all existing L-shape connectors */
-  .node-container {
-    position: relative;
-    margin-left: 12px;
-  }
-  .connector-line {
-    left: -12px;
-    top: 12px;
-    width: 12px;
-    height: 2px;
-    background-color: #94a3b8;
-  }
-  .connector-line::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: -12px;
-    height: 12px;
-    width: 2px;
-    background-color: #94a3b8;
-  }
-  .children-container {
-    position: relative;
-  }
-  #app > .node-container {
-    margin-left: 0;
-  }
-
-  /* Add main straight gray line slightly left */
-  #app {
-    position: relative;
-  }
-  #app::after {
-    content: '';
-    position: absolute;
-    left: 5px;
-    top:20px;
-    bottom: 0;
-    width: 2px;
-     background-color: #94a3b8;
-    z-index: -1;
-  }
-`;
+  style.textContent = `
+    .node-container {
+      position: relative;
+      margin-left: 12px;
+    }
+    .connector-line {
+      left: -12px;
+      top: 12px;
+      width: 12px;
+      height: 2px;
+      background-color: #94a3b8;
+    }
+    .connector-line::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: -12px;
+      height: 12px;
+      width: 2px;
+      background-color: #94a3b8;
+    }
+    .children-container {
+      position: relative;
+    }
+    #app > .node-container {
+      margin-left: 0;
+    }
+  `;
   document.head.appendChild(style);
 
   try {
