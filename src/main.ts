@@ -91,6 +91,17 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
     .children-container {
       position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+    .children-container > .node-container:not(:last-child)::after {
+      content: '';
+      position: absolute;
+      left: -12px;
+      top: 0;
+      height: 100%;
+      width: 2px;
+      background-color: #94a3b8;
     }
     #app > .node-container {
       margin-left: 0;
