@@ -24,16 +24,16 @@ const getStatusColor = (status: string): string => {
 
 const createNode = (node: OrgNode, isRoot: boolean = false): HTMLElement => {
   const box = document.createElement('div');
-  box.className = 'text-[10px] border rounded bg-white p-0.5 shadow-sm m-0.5';
+  box.className = 'node-box';
 
   box.innerHTML = `
-    <div class="font-semibold text-blue-600 leading-none">
-      ${node.prevdesignation ? '<s>' + node.prevdesignation + '</s> ' : ''}${node.designation}
+    <div class="designation">
+      ${node.prevdesignation ? '<span class="prev-designation">' + node.prevdesignation + '</span> ' : ''}${node.designation}
       ${' | '}
-      ${node.prevshortform ? '<s>' + node.prevshortform + '</s> ' : ''}${node.shortform}
+      ${node.prevshortform ? '<span class="prev-designation">' + node.prevshortform + '</span> ' : ''}${node.shortform}
       (${node.scale})
     </div>
-    <div class="text-gray-500 leading-none mt-0.5">
+    <div class="details">
       Posting: ${node.posting}, Status: <span class="${getStatusColor(node.status)}"><b>${node.status}</b></span>, Email: ${node.email}
     </div>
   `;
@@ -43,7 +43,7 @@ const createNode = (node: OrgNode, isRoot: boolean = false): HTMLElement => {
 
   if (!isRoot) {
     const connector = document.createElement('div');
-    connector.className = 'absolute connector-line';
+    connector.className = 'connector-line';
     container.appendChild(connector);
   }
 
@@ -51,7 +51,7 @@ const createNode = (node: OrgNode, isRoot: boolean = false): HTMLElement => {
 
   if (node.subordinates?.length) {
     const childrenContainer = document.createElement('div');
-    childrenContainer.className = 'children-container ml-4';
+    childrenContainer.className = 'children-container';
     
     node.subordinates.forEach(child => {
       childrenContainer.appendChild(createNode(child));
@@ -67,45 +67,51 @@ document.addEventListener('DOMContentLoaded', async () => {
   const root = document.getElementById('app');
   if (!root) return console.error('Root element not found');
 
+  // Set print date
+  const dateElement = document.getElementById('print-date');
+  if (dateElement) {
+    dateElement.textContent = new Date().toLocaleString();
+  }
+
+  // Add print-specific styles
   const style = document.createElement('style');
   style.textContent = `
     .node-container {
       position: relative;
-      margin-left: 12px;
+      margin-left: 24px;
     }
     .connector-line {
+      position: absolute;
       left: -12px;
       top: 12px;
       width: 12px;
       height: 2px;
       background-color: #94a3b8;
     }
-    .connector-line::before {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: -12px;
-      height: 12px;
-      width: 2px;
-      background-color: #94a3b8;
-    }
+
     .children-container {
       position: relative;
       display: flex;
       flex-direction: column;
     }
-    .children-container > .node-container:not(:last-child)::after {
-      content: '';
-      position: absolute;
-      left: -12px;
-      top: 0;
-      height: 100%;
-      width: 2px;
-      background-color: #94a3b8;
-    }
+
     #app > .node-container {
       margin-left: 0;
     }
+    .print-header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .print-header h1 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .print-meta {
+      font-size: 12px;
+      color: #666;
+    }
+      
   `;
   document.head.appendChild(style);
 
@@ -113,9 +119,13 @@ document.addEventListener('DOMContentLoaded', async () => {
     const res = await fetch('https://run.mocky.io/v3/b740668d-1e79-4c91-866a-7060ca647654');
     if (!res.ok) throw new Error(`HTTP error! Status: ${res.status}`);
     const data: OrgNode = await res.json();
-    root.appendChild(createNode(data, true));
+    
+    const orgContainer = document.createElement('div');
+    orgContainer.className = 'org-container';
+    orgContainer.appendChild(createNode(data, true));
+    
+    root.appendChild(orgContainer);
   } catch (err) {
     console.error('Error loading organogram:', err);
   }
 });
-
