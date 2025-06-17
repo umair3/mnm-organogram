@@ -185,16 +185,7 @@
           "status": "update",
           "posting": "Head Quarters",
           "subordinates": [
-            {
-              "prevdesignation": "COMPUTER PROGRAMMER (IT)",
-              "designation": "Computer Programmer 1",
-              "prevshortform": "COMPUTER PROGRAMMER (IT)(COMPUTER PROGRAMMER (IT))",
-              "shortform": "CP(IT)",
-              "scale": "Bs-16",
-              "email": "cpit.dgmm@punjab.gov.pk",
-              "status": "update",
-              "posting": "Head Quarters"
-            },
+            
             {
               "designation": "Web Geographical Information System Development Officer Head Quarters",
               "shortform": "Web GIS DO HQR",
@@ -276,6 +267,16 @@
           "status": "update",
           "posting": "Head Quarters",
           "subordinates": [
+            {
+              "prevdesignation": "COMPUTER PROGRAMMER (IT)",
+              "designation": "Computer Programmer 1",
+              "prevshortform": "COMPUTER PROGRAMMER (IT)(COMPUTER PROGRAMMER (IT))",
+              "shortform": "CP(IT)",
+              "scale": "Bs-16",
+              "email": "cpit.dgmm@punjab.gov.pk",
+              "status": "update",
+              "posting": "Head Quarters"
+            },
             {
               "designation": "Computer Programmer 2",
               "shortform": "CP (IT)",
