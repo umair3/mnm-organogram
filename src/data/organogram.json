@@ -469,13 +469,11 @@
           ]
         },
         {
-          "prevdesignation": "Deputy Director (HQR)",
-          "designation": "Deputy Director Headquarter",
-          "previousshortform": "DY DIRECTOR(HQR)(DY DIRECTOR HQR)",
-          "shortform": "DD(HQR)",
+          "designation": "Deputy Director (HQR)",
+          "shortform": "DY DIRECTOR(HQR)(DY DIRECTOR HQR)",
           "scale": "Bs-18",
           "email": "ddhqr.dgmm@punjab.gov.pk",
-          "status": "update",
+          "status": "active",
           "posting": "Head Quarters",
           "subordinates": [
             {
