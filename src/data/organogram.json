@@ -1173,6 +1173,26 @@
                   "posting": "Gujranwala"
                 }
               ]
+            },
+            {
+              "prevdesignation": "Assistant Director(Sialkot)",
+              "designation": "Assistant Director Sialkot",
+              "previousshortform": "ASSISTANT DIRECTOR (SIALKOT)(ASSISTANT DIRECTOR SLK) ",
+              "shortform": "AD(SLK)",
+              "scale": "Bs-17",
+              "email": "adslk.dgmm@punjab.gov.pk",
+              "status": "update",
+              "posting": "Sialkot",
+              "subordinates": [
+                {
+                  "designation": "Assistant Sialkot",
+                  "shortform": "Assistant(SLK)",
+                  "scale": "BS-16",
+                  "email": "@punjab.gov.pk",
+                  "status": "create",
+                  "posting": "Sialkot"
+                }
+              ]
             }
           ]
         },
@@ -1217,44 +1237,24 @@
               ]
             },
             {
-              "prevdesignation": "Assistant Director(Sialkot)",
-              "designation": "Assistant Director Sialkot",
-              "previousshortform": "ASSISTANT DIRECTOR (SIALKOT)(ASSISTANT DIRECTOR SLK) ",
-              "shortform": "AD(SLK)",
+              "prevdesignation": "Assistant Director(Sahiwal)",
+              "designation": "Assistant Director Sahiwal",
+              "previousshortform": "ASSISTANT DIRECTOR (SAHIWAL)(ASSISTANT DIRECTOR SWL)",
+              "shortform": "AD(SWL)",
               "scale": "Bs-17",
-              "email": "adslk.dgmm@punjab.gov.pk",
+              "email": "adswl.dgmm@punjab.gov.pk",
               "status": "update",
-              "posting": "Sialkot",
+              "posting": "Sahiwal",
               "subordinates": [
                 {
-                  "designation": "Assistant Sialkot",
-                  "shortform": "Assistant(SLK)",
+                  "designation": "Assistant Sahiwal",
+                  "shortform": "Assistant(SWL)",
                   "scale": "BS-16",
                   "email": "@punjab.gov.pk",
                   "status": "create",
-                  "posting": "Sialkot"
+                  "posting": "Sahiwal"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "prevdesignation": "Assistant Director(Sahiwal)",
-          "designation": "Assistant Director Sahiwal",
-          "previousshortform": "ASSISTANT DIRECTOR (SAHIWAL)(ASSISTANT DIRECTOR SWL)",
-          "shortform": "AD(SWL)",
-          "scale": "Bs-17",
-          "email": "adswl.dgmm@punjab.gov.pk",
-          "status": "update",
-          "posting": "Sahiwal",
-          "subordinates": [
-            {
-              "designation": "Assistant Sahiwal",
-              "shortform": "Assistant(SWL)",
-              "scale": "BS-16",
-              "email": "@punjab.gov.pk",
-              "status": "create",
-              "posting": "Sahiwal"
             }
           ]
         }
