@@ -27,6 +27,58 @@
       "posting": "Head Quarters"
     },
     {
+      "prevdesignation": "Deputy Director(LSM)",
+      "designation": "Deputy Director Large Scale Mining",
+      "prevshortform": "Deputy Director(LSM)(LSM)",
+      "shortform": "DD(LSM)",
+      "scale": "Bs-18",
+      "email": "ddlsm.dgmm@punjab.gov.pk",
+      "status": "update",
+      "posting": "Head Quarters",
+      "subordinates": [
+        {
+          "prevdesignation": "Assistant Director(EL)",
+          "designation": "Assistant Director Large Scale Mining",
+          "previousshortform": "Assistant Director(EL)(AD-EL)",
+          "shortform": "AD LSM",
+          "scale": "Bs-17",
+          "email": "asel.dgmm@punjab.gov.pk",
+          "status": "update",
+          "posting": "Head Quarters",
+          "subordinates": [
+            {
+              "designation": "Suprintendent Large Scale Mining",
+              "shortform": "Suprintendent LSM",
+              "scale": "Bs-17",
+              "email": "@punjab.gov.pk",
+              "status": "create",
+              "posting": "Head Quarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "prevdesignation": "Assistant Director (Appeals)",
+      "designation": "Assistant Director Appeal",
+      "prevshortform": "Asstt. Director(Appeal)(DG Mines,Mines & Minerals)",
+      "shortform": "AD Appeal",
+      "scale": "Bs-17",
+      "email": "adapp.dgmm@punjab.gov.pk",
+      "status": "update",
+      "posting": "Head Quarters",
+      "subordinates": [
+        {
+          "designation": "Superintendent Appeal",
+          "shortform": "SA",
+          "scale": "Bs-17",
+          "email": "@punjab.gov.pk",
+          "status": "create",
+          "posting": "Head Quarters"
+        }
+      ]
+    },
+    {
       "designation": "Director Resource Mapping",
       "prevshortform": "Director Resource Mapping(Resource Mapping)",
       "shortform": "Director RM",
@@ -1205,58 +1257,6 @@
               "posting": "Sahiwal"
             }
           ]
-        }
-      ]
-    },
-    {
-      "prevdesignation": "Deputy Director(LSM)",
-      "designation": "Deputy Director Large Scale Mining",
-      "prevshortform": "Deputy Director(LSM)(LSM)",
-      "shortform": "DD(LSM)",
-      "scale": "Bs-18",
-      "email": "ddlsm.dgmm@punjab.gov.pk",
-      "status": "update",
-      "posting": "Head Quarters",
-      "subordinates": [
-        {
-          "prevdesignation": "Assistant Director(EL)",
-          "designation": "Assistant Director Large Scale Mining",
-          "previousshortform": "Assistant Director(EL)(AD-EL)",
-          "shortform": "AD LSM",
-          "scale": "Bs-17",
-          "email": "asel.dgmm@punjab.gov.pk",
-          "status": "update",
-          "posting": "Head Quarters",
-          "subordinates": [
-            {
-              "designation": "Suprintendent Large Scale Mining",
-              "shortform": "Suprintendent LSM",
-              "scale": "Bs-17",
-              "email": "@punjab.gov.pk",
-              "status": "create",
-              "posting": "Head Quarters"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "prevdesignation": "Assistant Director (Appeals)",
-      "designation": "Assistant Director Appeal",
-      "prevshortform": "Asstt. Director(Appeal)(DG Mines,Mines & Minerals)",
-      "shortform": "AD Appeal",
-      "scale": "Bs-17",
-      "email": "adapp.dgmm@punjab.gov.pk",
-      "status": "update",
-      "posting": "Head Quarters",
-      "subordinates": [
-        {
-          "designation": "Superintendent Appeal",
-          "shortform": "SA",
-          "scale": "Bs-17",
-          "email": "@punjab.gov.pk",
-          "status": "create",
-          "posting": "Head Quarters"
         }
       ]
     }
