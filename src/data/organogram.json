@@ -47,8 +47,8 @@
           "posting": "Head Quarters",
           "subordinates": [
             {
-              "designation": "Suprintendent Large Scale Mining",
-              "shortform": "Suprintendent LSM",
+              "designation": "Superintendent Large Scale Mining",
+              "shortform": "Superintendent LSM",
               "scale": "Bs-17",
               "email": "@punjab.gov.pk",
               "status": "create",
@@ -60,17 +60,17 @@
     },
     {
       "prevdesignation": "Assistant Director (Appeals)",
-      "designation": "Assistant Director Appeal",
+      "designation": "Assistant Director Appeals",
       "prevshortform": "Asstt. Director(Appeal)(DG Mines,Mines & Minerals)",
-      "shortform": "AD Appeal",
+      "shortform": "AD Appeals",
       "scale": "Bs-17",
       "email": "adapp.dgmm@punjab.gov.pk",
       "status": "update",
       "posting": "Head Quarters",
       "subordinates": [
         {
-          "designation": "Superintendent Appeal",
-          "shortform": "SA",
+          "designation": "Superintendent Appeals",
+          "shortform": "Superintendent Appeals",
           "scale": "Bs-17",
           "email": "@punjab.gov.pk",
           "status": "create",
@@ -457,7 +457,7 @@
               "posting": "Head Quarters",
               "subordinates": [
                 {
-                  "designation": "Suprintendent Auction Head Quarters",
+                  "designation": "Superintendent Auction Head Quarters",
                   "shortform": "SA HQR",
                   "scale": "Bs-17",
                   "email": "@punjab.gov.pk",
@@ -469,11 +469,13 @@
           ]
         },
         {
-          "designation": "Deputy Director (HQR)",
-          "shortform": "DY DIRECTOR(HQR)(DY DIRECTOR HQR)",
+          "prevdesignation": "Deputy Director (HQR)",
+          "designation": "Deputy Director Headquarter",
+          "previousshortform": "DY DIRECTOR(HQR)(DY DIRECTOR HQR)",
+          "shortform": "DD(HQR)",
           "scale": "Bs-18",
           "email": "ddhqr.dgmm@punjab.gov.pk",
-          "status": "active",
+          "status": "update",
           "posting": "Head Quarters",
           "subordinates": [
             {
@@ -487,8 +489,8 @@
               "posting": "Head Quarters",
               "subordinates": [
                 {
-                  "designation": "Suprintendent Head Quarters",
-                  "shortform": "Suprintendent(HQR)",
+                  "designation": "Superintendent Head Quarters",
+                  "shortform": "Superintendent(HQR)",
                   "scale": "Bs-17",
                   "email": "@punjab.gov.pk",
                   "status": "create",
@@ -519,8 +521,8 @@
               "posting": "Head Quarters",
               "subordinates": [
                 {
-                  "designation": "Suprintendent Mining Lease 1 Head Quarters",
-                  "shortform": "Suprintendent(ML1) HQR",
+                  "designation": "Superintendent Mining Lease 1 Head Quarters",
+                  "shortform": "Superintendent(ML1) HQR",
                   "scale": "Bs-17",
                   "email": "@punjab.gov.pk",
                   "status": "create",
@@ -551,8 +553,8 @@
               "posting": "Head Quarters",
               "subordinates": [
                 {
-                  "designation": "Suprintendent Mining Lease 2 Head Quarters",
-                  "shortform": "Suprintendent(ML2) HQR",
+                  "designation": "Superintendent Mining Lease 2 Head Quarters",
+                  "shortform": "Superintendent(ML2) HQR",
                   "scale": "Bs-17",
                   "email": "@punjab.gov.pk",
                   "status": "create",
@@ -583,8 +585,8 @@
               "posting": "Head Quarters",
               "subordinates": [
                 {
-                  "designation": "Suprintendent Prospecting License Head Quarters",
-                  "shortform": "Suprintendent(PL) HQR",
+                  "designation": "Superintendent Prospecting License Head Quarters",
+                  "shortform": "Superintendent(PL) HQR",
                   "scale": "Bs-17",
                   "email": "@punjab.gov.pk",
                   "status": "create",
@@ -615,8 +617,8 @@
               "posting": "Head Quarters",
               "subordinates": [
                 {
-                  "designation": "Suprintendent Mining Consession Head Quarters",
-                  "shortform": "Suprintendent(MC) HQR",
+                  "designation": "Superintendent Mining Consession Head Quarters",
+                  "shortform": "Superintendent(MC) HQR",
                   "scale": "Bs-17",
                   "email": "@punjab.gov.pk",
                   "status": "create",
@@ -647,8 +649,8 @@
               "posting": "Chakwal",
               "subordinates": [
                 {
-                  "designation": "Suprintendent Chakwal",
-                  "shortform": "Suprintendent(CKL)",
+                  "designation": "Superintendent Chakwal",
+                  "shortform": "Superintendent(CKL)",
                   "scale": "Bs-17",
                   "email": "@punjab.gov.pk",
                   "status": "create",
@@ -679,8 +681,8 @@
               "posting": "Mianwali",
               "subordinates": [
                 {
-                  "designation": "Suprintendent Mianwali",
-                  "shortform": "Suprintendent(MLI)",
+                  "designation": "Superintendent Mianwali",
+                  "shortform": "Superintendent(MLI)",
                   "scale": "Bs-17",
                   "email": "@punjab.gov.pk",
                   "status": "create",
@@ -711,8 +713,8 @@
               "posting": "khushab",
               "subordinates": [
                 {
-                  "designation": "Suprintendent Khushab",
-                  "shortform": "Suprintendent(KHB)",
+                  "designation": "Superintendent Khushab",
+                  "shortform": "Superintendent(KHB)",
                   "scale": "Bs-17",
                   "email": "@punjab.gov.pk",
                   "status": "create",
@@ -765,7 +767,7 @@
               "posting": "Head Quarters",
               "subordinates": [
                 {
-                  "designation": "Suprintendent Admin",
+                  "designation": "Superintendent Admin",
                   "shortform": "SA",
                   "scale": "Bs-17",
                   "email": "@punjab.gov.pk",
@@ -795,10 +797,10 @@
           "posting": "Head Quarters",
           "subordinates": [
             {
-              "prevdesignation": "Suprintendent(B&A)",
-              "designation": "Suprintendent Budget & Accounts",
+              "prevdesignation": "Superintendent(B&A)",
+              "designation": "Superintendent Budget & Accounts",
               "previousshortform": "Superintendent(B&A)(Superintendent B&A)",
-              "shortform": "Suprintendent B&A",
+              "shortform": "Superintendent B&A",
               "scale": "Bs-17",
               "email": "suptbna.dgmm@punjab.gov.pk",
               "status": "update",
@@ -817,8 +819,8 @@
           "posting": "Head Quarters",
           "subordinates": [
             {
-              "designation": "Suprintendent Planning & Coordination",
-              "shortform": "Suprintendent P&C",
+              "designation": "Superintendent Planning & Coordination",
+              "shortform": "Superintendent P&C",
               "scale": "Bs-17",
               "email": "@punjab.gov.pk",
               "status": "create",
@@ -868,8 +870,8 @@
               "posting": "Head Quarters",
               "subordinates": [
                 {
-                  "designation": "Suprintendent Environmental Facilitation",
-                  "shortform": "Suprintendent EF",
+                  "designation": "Superintendent Environmental Facilitation",
+                  "shortform": "Superintendent EF",
                   "scale": "BS-17",
                   "email": "@punjab.gov.pk",
                   "status": "create",
@@ -910,8 +912,8 @@
               "posting": "Head Quarters",
               "subordinates": [
                 {
-                  "designation": "Suprintendent Minor and Minerals Head Quarter",
-                  "shortform": "Suprintendent MM HQR",
+                  "designation": "Superintendent Minor and Minerals Head Quarter",
+                  "shortform": "Superintendent MM HQR",
                   "scale": "BS-17",
                   "email": "@punjab.gov.pk",
                   "status": "create",
@@ -943,8 +945,8 @@
               "posting": "Dera Ghazi Khan",
               "subordinates": [
                 {
-                  "designation": "Suprintendent Dera Ghazi Khan",
-                  "shortform": "Suprintendent DGK",
+                  "designation": "Superintendent Dera Ghazi Khan",
+                  "shortform": "Superintendent DGK",
                   "scale": "BS-17",
                   "email": "@punjab.gov.pk",
                   "status": "create",
@@ -1019,8 +1021,8 @@
               "posting": "Rawalpindi",
               "subordinates": [
                 {
-                  "designation": "Suprintendent Rawalpindi",
-                  "shortform": "Suprintendent(RWP)",
+                  "designation": "Superintendent Rawalpindi",
+                  "shortform": "Superintendent(RWP)",
                   "scale": "BS-17",
                   "email": "@punjab.gov.pk",
                   "status": "create",
@@ -1101,8 +1103,8 @@
               "posting": "Sargodha",
               "subordinates": [
                 {
-                  "designation": "Suprintendent Sargodha",
-                  "shortform": "Suprintendent(SRG)",
+                  "designation": "Superintendent Sargodha",
+                  "shortform": "Superintendent(SRG)",
                   "scale": "BS-17",
                   "email": "@punjab.gov.pk",
                   "status": "create",
@@ -1215,8 +1217,8 @@
               "posting": "Lahore",
               "subordinates": [
                 {
-                  "designation": "Suprintendent Lahore Region",
-                  "shortform": "Suprintendent(LHR)",
+                  "designation": "Superintendent Lahore Region",
+                  "shortform": "Superintendent(LHR)",
                   "scale": "BS-17",
                   "email": "@punjab.gov.pk",
                   "status": "create",
