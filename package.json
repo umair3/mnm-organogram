@@ -6,7 +6,7 @@
   "scripts": {
     "build:ts": "tsc",
     "build:css": "tailwindcss -i ./styles/tailwind.css -o ./dist/output.css",
-    "start": "live-server"
+    "start": "live-server --port=8080"
   },
   "keywords": [],
   "author": "",
