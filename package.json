@@ -4,24 +4,26 @@
   "description": "The editor for diagram is https://jsoncrack.com/editor",
   "main": "index.js",
   "scripts": {
+    "build:css": "npx tailwindcss -i ./styles/tailwind.css -o ./dist/output.css",
     "build:ts": "tsc",
-    "build:css": "tailwindcss -i ./styles/tailwind.css -o ./dist/output.css",
     "start": "live-server --port=8080"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@tailwindcss/cli": "^4.1.10",
     "@types/dom-to-image": "^2.6.7",
     "@types/node": "^24.0.0",
+    "autoprefixer": "^10.4.21",
     "live-server": "^1.2.2",
-    "tailwindcss": "^4.1.9"
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.10"
   },
   "dependencies": {
     "dom-to-image": "^2.6.0",
     "html2pdf.js": "^0.10.3",
-    "jspdf": "^3.0.1",
-    "tailwind": "^4.0.0"
+    "jspdf": "^3.0.1"
   },
   "repository": {
     "type": "git",
