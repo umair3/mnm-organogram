@@ -8,7 +8,7 @@ COPY . .
 RUN npm install --include=dev
 RUN npm run build:css
 RUN npm run build:ts
-
+RUN npx tsc --version
 EXPOSE 8080
  
 CMD ["npm", "start"]
