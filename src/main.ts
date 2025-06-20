@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   document.head.appendChild(style);
 
   try {
-    const res = await fetch('https://run.mocky.io/v3/54eab516-fa7e-4c9f-bbda-48fe8139efb8');
+    const res = await fetch('https://mocki.io/v1/df3ea9b7-7027-4a99-b7c2-5196fb813ced');
     if (!res.ok) throw new Error(`HTTP error! Status: ${res.status}`);
     const data: OrgNode = await res.json();
     
