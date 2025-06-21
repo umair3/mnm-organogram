@@ -47,17 +47,35 @@ const createNode = (node: OrgNode, isRoot: boolean = false): HTMLElement => {
     container.appendChild(connector);
   }
 
-  container.appendChild(box);
-
   if (node.subordinates?.length) {
+    const toggleBtn = document.createElement('button');
+    toggleBtn.textContent = '-';
+    toggleBtn.className = 'mr-1 w-4 h-4 text-xs border rounded text-gray-700 bg-white';
+    toggleBtn.setAttribute('aria-expanded', 'true');
+
+    const toggleWrapper = document.createElement('div');
+    toggleWrapper.className = 'flex items-start';
+
     const childrenContainer = document.createElement('div');
     childrenContainer.className = 'children-container';
-    
+
     node.subordinates.forEach(child => {
       childrenContainer.appendChild(createNode(child));
     });
-    
+
+    toggleBtn.addEventListener('click', () => {
+      const expanded = toggleBtn.getAttribute('aria-expanded') === 'true';
+      toggleBtn.setAttribute('aria-expanded', String(!expanded));
+      toggleBtn.textContent = expanded ? '+' : '-';
+      childrenContainer.style.display = expanded ? 'none' : '';
+    });
+
+    toggleWrapper.appendChild(toggleBtn);
+    toggleWrapper.appendChild(box);
+    container.appendChild(toggleWrapper);
     container.appendChild(childrenContainer);
+  } else {
+    container.appendChild(box);
   }
 
   return container;
@@ -67,15 +85,16 @@ document.addEventListener('DOMContentLoaded', async () => {
   const root = document.getElementById('app');
   if (!root) return console.error('Root element not found');
 
-  // Set print date
   const dateElement = document.getElementById('print-date');
   if (dateElement) {
     dateElement.textContent = new Date().toLocaleString();
   }
 
-  // Add print-specific styles
   const style = document.createElement('style');
   style.textContent = `
+    .node-box button {
+      cursor: pointer;
+    }
     .node-container {
       position: relative;
       margin-left: 24px;
@@ -88,13 +107,11 @@ document.addEventListener('DOMContentLoaded', async () => {
       height: 2px;
       background-color: #94a3b8;
     }
-
     .children-container {
       position: relative;
       display: flex;
       flex-direction: column;
     }
-
     #app > .node-container {
       margin-left: 0;
     }
@@ -111,7 +128,6 @@ document.addEventListener('DOMContentLoaded', async () => {
       font-size: 12px;
       color: #666;
     }
-      
   `;
   document.head.appendChild(style);
 
@@ -119,11 +135,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     const res = await fetch('https://mocki.io/v1/df3ea9b7-7027-4a99-b7c2-5196fb813ced');
     if (!res.ok) throw new Error(`HTTP error! Status: ${res.status}`);
     const data: OrgNode = await res.json();
-    
+
     const orgContainer = document.createElement('div');
     orgContainer.className = 'org-container';
     orgContainer.appendChild(createNode(data, true));
-    
+
     root.appendChild(orgContainer);
   } catch (err) {
     console.error('Error loading organogram:', err);
