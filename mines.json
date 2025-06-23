@@ -1,107 +1,260 @@
 [
-  {
-    "designation": "Mines Labour Welfare Commissioner",
-    "subordinates": [
-      {
-        "designation": "Director Finance",
+    {
+        "designation": "Mines Labour Welfare Commissioner",
+        "shortForm": "MLWC",
+        "scale": "(BS-20)",
+        "email": "",
+        "status": "active",
+        "posting": "Head Quarters",
         "subordinates": [
-          {
-            "designation": "D.D Finance",
-            "subordinates": [
-              {
-                "designation": "Accounts Officer",
+            {
+                "designation": "Director Finance",
+                "shortForm": "DF",
+                "scale": "(BS-19)",
+                "email": "",
+                "status": "active",
+                "posting": "Head Quarters",
                 "subordinates": [
-                  {
-                    "designation": "Assistant Accounts Officer"
-                  }
+                    {
+                        "designation": "Deputy Director Finance",
+                        "shortForm": "DDF",
+                        "scale": "(BS-18)",
+                        "email": "",
+                        "status": "active",
+                        "posting": "Head Quarters",
+                        "subordinates": [
+                            {
+                                "designation": "Accounts Officer",
+                                "shortForm": "A/O",
+                                "scale": "(BS-17)",
+                                "email": "",
+                                "status": "active",
+                                "posting": "Head Quarters",
+                                "subordinates": [
+                                    {
+                                        "designation": "Assistant Accounts Officer",
+                                        "shortForm": "AAO",
+                                        "scale": "(BS-16)",
+                                        "email": "",
+                                        "status": "active",
+                                        "posting": "Head Quarters"
+                                    }
+                                ]
+                            },
+                            {
+                                "designation": "Assistant Director Budget",
+                                "shortForm": "A.D (Budget)",
+                                "scale": "(BS-17)",
+                                "email": "",
+                                "status": "active",
+                                "posting": "Head Quarters",
+                                "subordinates": [
+                                    {
+                                        "designation": "Assistant Budget Officer",
+                                        "shortForm": "ABO",
+                                        "scale": "(BS-16)",
+                                        "email": "",
+                                        "status": "active",
+                                        "posting": "Head Quarters"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
                 ]
-              },
-              {
-                "designation": "A.D.Budget",
+            }
+        ]
+    },
+    {
+        "designation": "Director Mines Labour Welfare",
+        "shortForm": "DMLW",
+        "scale": "(BS-19)",
+        "email": "",
+        "status": "active",
+        "posting": "Head Quarters",
+        "subordinates": [
+            {
+                "designation": "Deputy Director Admin",
+                "shortForm": "DD(ADMN)",
+                "scale": "(BS-18)",
+                "email": "",
+                "status": "active",
+                "posting": "Head Quarters",
                 "subordinates": [
-                  {
-                    "designation": "Assistant Assistant Budget Officer"
-                  }
+                    {
+                        "designation": "Statistical Officer",
+                        "shortForm": "S/O",
+                        "scale": "(BS-17)",
+                        "email": "",
+                        "status": "active",
+                        "posting": "Head Quarters"
+                    },
+                    {
+                        "designation": "Assistant Director Admin",
+                        "shortForm": "AD(ADMN)",
+                        "scale": "(BS-17)",
+                        "email": "",
+                        "status": "active",
+                        "posting": "Head Quarters",
+                        "subordinates": [
+                            {
+                                "designation": "Superintendent-I",
+                                "shortForm": "Suptd-I",
+                                "scale": "(BS-17)",
+                                "email": "",
+                                "status": "active",
+                                "posting": "Head Quarters"
+                            },
+                            {
+                                "designation": "Superintendent-II",
+                                "shortForm": "Suptd-II",
+                                "scale": "(BS-17)",
+                                "email": "",
+                                "status": "active",
+                                "posting": "Head Quarters"
+                            }
+                        ]
+                    }
                 ]
-              }
+            },
+            {
+                "designation": "Director Mines Labour Welfare Commissioner",
+                "shortForm": "DMLWC",
+                "scale": "(BS-18)",
+                "email": "",
+                "status": "active",
+                "posting": "Head Quarters",
+                "subordinates": [
+                    {
+                        "designation": "Assitant Mines Labour Welfare Commissioner",
+                        "shortForm": "AMLWC",
+                        "scale": "(BS-17)",
+                        "email": "",
+                        "status": "active",
+                        "posting": "Head Quarters",
+                        "subordinates": [
+                            {
+                                "designation": "Superintendent",
+                                "shortForm": "Suptd",
+                                "scale": "(BS-17)",
+                                "email": "",
+                                "status": "active",
+                                "posting": "Head Quarters"
+                            }
+                        ]
+                    },
+                    {
+                        "designation": "Assitant Director Legal",
+                        "shortForm": "AD Legal",
+                        "scale": "(BS-17)",
+                        "email": "",
+                        "status": "active",
+                        "posting": "Head Quarters"
+                    },
+                    {
+                        "designation": "Assistant Director Mines Labour welfare ",
+                        "shortForm": "ADMLW",
+                        "scale": "(BS-17)",
+                        "email": "",
+                        "status": "active",
+                        "posting": "Head Quarters",
+                        "subordinates": [
+                            {
+                                "designation": "Mines Labour Welfare Officer",
+                                "shortForm": "MLWO",
+                                "scale": "(BS-16)",
+                                "email": "",
+                                "status": "active",
+                                "posting": "Head Quarters"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "designation": "Deputy Director Education",
+                "shortForm": "DD(Edu)",
+                "scale": "(BS-18)",
+                "email": "",
+                "status": "active",
+                "posting": "Head Quarters",
+                "subordinates": [
+                    {
+                        "designation": "Assistant Director Information Technology",
+                        "shortForm": "AD(IT)",
+                        "scale": "(BS-17)",
+                        "email": "",
+                        "status": "active",
+                        "posting": "Head Quarters",
+                        "subordinates": [
+                            {
+                                "designation": "Junior Network Administrator",
+                                "shortForm": "NA(Jr)",
+                                "scale": "(BS-16)",
+                                "email": "",
+                                "status": "active",
+                                "posting": "Head Quarters"
+                            }
+                        ]
+                    }
+                    ]
+                }
             ]
-          }
-        ]
-      }
+        },
+        {
+            "designation": "Director Works",
+            "shortForm": "DW",
+            "scale": "(BS-19)",
+            "email": "",
+            "status": "active",
+            "posting": "Head Quarters",
+            "subordinates": [
+                {
+                    "designation": "Deputy Director Works",
+                    "shortForm": "DD (Works)",
+                    "scale": "(BS-18)",
+                    "email": "",
+                    "status": "active",
+                    "posting": "Head Quarters",
+                    "subordinates": [
+                        {
+                            "designation": "Construction Engineer",
+                            "shortForm": "CE",
+                            "scale": "(BS-17)",
+                            "email": "",
+                            "status": "active",
+                            "posting": "Head Quarters",
+                            "subordinates": [
+                                {
+                                    "designation": "Senior Sub Engineer",
+                                    "shortForm": "SSE",
+                                    "scale": "(BS-16)",
+                                    "email": "",
+                                    "status": "active",
+                                    "posting": "Head Quarters"
+                                }
+                            ]
+                        },
+                        {
+                            "designation": "Assitant Director Works",
+                            "shortForm": "AD(Works)",
+                            "scale": "(BS-17)",
+                            "email": "",
+                            "status": "active",
+                            "posting": "Head Quarters",
+                            "subordinates": [
+                                {
+                                    "designation": "Superintendent",
+                                    "shortForm": "Supdt",
+                                    "scale": "(BS-17)",
+                                    "email": "",
+                                    "status": "active",
+                                    "posting": "Head Quarters"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
     ]
-  },
-  {
-    "designation": "Director MLW",
-    "subordinates": [
-      {
-        "designation": "DD (Admn)",
-        "subordinates": [
-          {
-            "designation": "Statistical Officer"
-          },
-          {
-            "designation": "A.D. Admn",
-            "subordinates": [
-              {
-                "designation": "Supdt-I"
-              },
-              {
-                "designation": "Supdt-I"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "designation": "DMLWC",
-        "subordinates": [
-          {
-            "designation": "AMLWC",
-            "subordinates": [
-              {
-                "designation": "Supdt"
-              }
-            ]
-          },
-          {
-            "designation": "A.D. Legal"
-          },
-          {
-            "designation": "A.D. MLW",
-            "subordinates": [
-              {
-                "designation": "MLW Officer"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "designation": "Director Works",
-    "subordinates": [
-      {
-        "designation": "D.D Works",
-        "subordinates": [
-          {
-            "designation": "C.E.",
-            "subordinates": [
-              {
-                "designation": "S.S.E."
-              }
-            ]
-          },
-          {
-            "designation": "A.D Works",
-            "subordinates": [
-              {
-                "designation": "Supdt"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-]
