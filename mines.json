@@ -1,0 +1,107 @@
+[
+  {
+    "designation": "Mines Labour Welfare Commissioner",
+    "subordinates": [
+      {
+        "designation": "Director Finance",
+        "subordinates": [
+          {
+            "designation": "D.D Finance",
+            "subordinates": [
+              {
+                "designation": "Accounts Officer",
+                "subordinates": [
+                  {
+                    "designation": "Assistant Accounts Officer"
+                  }
+                ]
+              },
+              {
+                "designation": "A.D.Budget",
+                "subordinates": [
+                  {
+                    "designation": "Assistant Assistant Budget Officer"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "designation": "Director MLW",
+    "subordinates": [
+      {
+        "designation": "DD (Admn)",
+        "subordinates": [
+          {
+            "designation": "Statistical Officer"
+          },
+          {
+            "designation": "A.D. Admn",
+            "subordinates": [
+              {
+                "designation": "Supdt-I"
+              },
+              {
+                "designation": "Supdt-I"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "designation": "DMLWC",
+        "subordinates": [
+          {
+            "designation": "AMLWC",
+            "subordinates": [
+              {
+                "designation": "Supdt"
+              }
+            ]
+          },
+          {
+            "designation": "A.D. Legal"
+          },
+          {
+            "designation": "A.D. MLW",
+            "subordinates": [
+              {
+                "designation": "MLW Officer"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "designation": "Director Works",
+    "subordinates": [
+      {
+        "designation": "D.D Works",
+        "subordinates": [
+          {
+            "designation": "C.E.",
+            "subordinates": [
+              {
+                "designation": "S.S.E."
+              }
+            ]
+          },
+          {
+            "designation": "A.D Works",
+            "subordinates": [
+              {
+                "designation": "Supdt"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
