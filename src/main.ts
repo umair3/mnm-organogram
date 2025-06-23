@@ -50,11 +50,11 @@ const createNode = (node: OrgNode, isRoot: boolean = false): HTMLElement => {
   if (node.subordinates?.length) {
     const toggleBtn = document.createElement('button');
     toggleBtn.textContent = '-';
-    toggleBtn.className = 'mr-1 w-4 h-4 text-xs border rounded text-gray-700 bg-white';
+    toggleBtn.className = 'toggle-button mr-1 w-4 h-4 text-xs border rounded text-gray-700 bg-white';
     toggleBtn.setAttribute('aria-expanded', 'true');
 
     const toggleWrapper = document.createElement('div');
-    toggleWrapper.className = 'flex items-start';
+    toggleWrapper.className = 'flex items-center';
 
     const childrenContainer = document.createElement('div');
     childrenContainer.className = 'children-container';
@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       position: absolute;
       left: -12px;
       top: 12px;
-      width: 12px;
+      width: 40px;
       height: 2px;
       background-color: #94a3b8;
     }
@@ -128,11 +128,20 @@ document.addEventListener('DOMContentLoaded', async () => {
       font-size: 12px;
       color: #666;
     }
+      .toggle-button {
+  min-width: 1.25rem;
+  height: 1.25rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
   `;
   document.head.appendChild(style);
 
   try {
-    const res = await fetch('https://mocki.io/v1/df3ea9b7-7027-4a99-b7c2-5196fb813ced');
+    const res = await fetch('https://mocki.io/v1/58eaed4b-8cc4-45d4-be8b-7a38c4632c4c');
     if (!res.ok) throw new Error(`HTTP error! Status: ${res.status}`);
     const data: OrgNode = await res.json();
 

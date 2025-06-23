@@ -14,7 +14,10 @@
   z-index: 2;
   break-inside: avoid;
 }
-
+.toggle-button{
+  line-height: 0.5rem !important;
+  vertical-align: middle;
+}
 .node-box button {
   display: inline-flex;
   align-items: center;
