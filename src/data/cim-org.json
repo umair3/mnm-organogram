@@ -1,0 +1,181 @@
+{
+    "designation": "Chief Inspector Of Mines",
+    "shortform": "CIM",
+    "scale": "(BS-20)",
+    "email": "Mustfaraza1975@gmail.com",
+    "status": "active",
+    "posting": "Head Quarters",
+    "subordinates": [
+        {
+            "designation": "Deputy Chief Inspector of Mines",
+            "shortform": "DCIM",
+            "scale": "(BS-19)",
+            "email": "Mohammadkabir250@gmail.com",
+            "status": "active",
+            "posting": "Head Quarters",
+            "subordinates": [
+                {
+                    "designation": "Inspector of Mines Head Quarters",
+                    "shortform": "IMH (HQR)",
+                    "scale": "(BS-18)",
+                    "email": "@gmail.com",
+                    "status": "active",
+                    "posting": "Head Quarters",
+                    "subordinates": [
+                        {
+                            "designation": "Junior Inspector Of Mines",
+                            "shortform": "JIM",
+                            "scale": "(BS-17)",
+                            "email": "Waqas.min11@gmail.com",
+                            "status": "active",
+                            "posting": "Head Quarters"
+                        },
+                        {
+                            "designation": "Cess Officer",
+                            "shortform": "CO",
+                            "scale": "(BS-17)",
+                            "email": "@gmail.com",
+                            "status": "active",
+                            "posting": "Head Quarters"
+                        },
+                        {
+                            "designation": "Chief Draftsman",
+                            "shortform": "CD",
+                            "scale": "(BS-17)",
+                            "email": "mdtahirdogar@gmail.com",
+                            "status": "active",
+                            "posting": "Head Quarters",
+                            "subordinates": [
+                                {
+                                    "designation": "Head Draftsman",
+                                    "shortform": "HD",
+                                    "scale": "(BS-16)",
+                                    "email": "@gmail.com",
+                                    "status": "active",
+                                    "posting": "Head Quarters"
+                                },
+                                {
+                                    "designation": "Survey And Drawing Officer",
+                                    "shortform": "S&DO",
+                                    "scale": "(BS-16)",
+                                    "email": "@gmail.com",
+                                    "status": "active",
+                                    "posting": "Head Quarters"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "designation": "Training Officer",
+                    "shortform": "TO",
+                    "scale": "(BS-18)",
+                    "email": "engrwasim99@gmail.com",
+                    "status": "active",
+                    "posting": "Head Quarters",
+                    "subordinates": [
+                        {
+                            "designation": "Senior Cameraman",
+                            "shortform": "SR.C",
+                            "scale": "(BS-19)",
+                            "email": "Mohsins1965@gmail.com",
+                            "status": "active",
+                            "posting": "Head Quarters"
+                        },
+                        {
+                            "designation": "Assistant",
+                            "shortform": "Assistant",
+                            "scale": "(BS-19)",
+                            "email": "Ziaulislam1967@gmail.com",
+                            "status": "active",
+                            "posting": "Head Quarters"
+                        }
+                    ]
+                },
+                {
+                    "designation": "Deputy Director Budget And Statistics",
+                    "shortform": "DD(B&S)",
+                    "scale": "(BS-18)",
+                    "email": "@gmail.com",
+                    "status": "active",
+                    "posting": "Head Quarters",
+                    "subordinates": [
+                        {
+                            "designation": "Statistical Officer",
+                            "shortform": "SO",
+                            "scale": "(BS-17)",
+                            "email": "@gmail.com",
+                            "status": "active",
+                            "posting": "Head Quarters",
+                            "subordinates": [
+                                {
+                                    "designation": "Assistant Statistical Officer",
+                                    "shortform": "ASO",
+                                    "scale": "(BS-19)",
+                                    "email": "newahsansdream@gmail.com",
+                                    "status": "active",
+                                    "posting": "Head Quarters"
+                                }
+                            ]
+                        },
+                        {
+                            "designation": "Budget Officer",
+                            "shortform": "BO",
+                            "scale": "(BS-17)",
+                            "email": "@gmail.com",
+                            "status": "active",
+                            "posting": "Head Quarters",
+                            "subordinates": [
+                                {
+                                    "designation": "Assistant Budget Officer",
+                                    "shortform": "ABO",
+                                    "scale": "(BS-17)",
+                                    "email": "Abdar411@gmail.com",
+                                    "status": "active",
+                                    "posting": "Head Quarters"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "designation": "Director Mining Development Cell",
+            "shortform": "DMDC",
+            "scale": "(BS-19)",
+            "email": "Mustfaraza1975@gmail.com",
+            "status": "active",
+            "posting": "Head Quarters",
+            "subordinates": [
+                {
+                    "designation": "Assistant Director Training",
+                    "shortform": "ADT",
+                    "scale": "(BS-17)",
+                    "email": "@gmail.com",
+                    "status": "active",
+                    "posting": "Head Quarters",
+                    "subordinates": [
+                        {
+                            "designation": "Translator",
+                            "shortform": "Translator",
+                            "scale": "(BS-16)",
+                            "email": "nadianjf@gmail.com",
+                            "status": "active",
+                            "posting": "Head Quarters"
+                        }
+                    ]
+                },
+                {
+                    "designation": "Assistant Director Planning",
+                    "shortform": "ADP",
+                    "scale": "(BS-17)",
+                    "email": "Ask08072@gmail.com",
+                    "status": "active",
+                    "posting": "Head Quarters"
+                }
+            ]
+        }
+    ]
+}
+       

@@ -1,7 +1,7 @@
 [
     {
         "designation": "Mines Labour Welfare Commissioner",
-        "shortForm": "MLWC",
+        "shortform": "MLWC",
         "scale": "(BS-20)",
         "email": "",
         "status": "active",
@@ -9,7 +9,7 @@
         "subordinates": [
             {
                 "designation": "Director Finance",
-                "shortForm": "DF",
+                "shortform": "DF",
                 "scale": "(BS-19)",
                 "email": "",
                 "status": "active",
@@ -17,7 +17,7 @@
                 "subordinates": [
                     {
                         "designation": "Deputy Director Finance",
-                        "shortForm": "DDF",
+                        "shortform": "DDF",
                         "scale": "(BS-18)",
                         "email": "",
                         "status": "active",
@@ -25,7 +25,7 @@
                         "subordinates": [
                             {
                                 "designation": "Accounts Officer",
-                                "shortForm": "A/O",
+                                "shortform": "A/O",
                                 "scale": "(BS-17)",
                                 "email": "",
                                 "status": "active",
@@ -33,7 +33,7 @@
                                 "subordinates": [
                                     {
                                         "designation": "Assistant Accounts Officer",
-                                        "shortForm": "AAO",
+                                        "shortform": "AAO",
                                         "scale": "(BS-16)",
                                         "email": "",
                                         "status": "active",
@@ -43,7 +43,7 @@
                             },
                             {
                                 "designation": "Assistant Director Budget",
-                                "shortForm": "A.D (Budget)",
+                                "shortform": "A.D (Budget)",
                                 "scale": "(BS-17)",
                                 "email": "",
                                 "status": "active",
@@ -51,7 +51,7 @@
                                 "subordinates": [
                                     {
                                         "designation": "Assistant Budget Officer",
-                                        "shortForm": "ABO",
+                                        "shortform": "ABO",
                                         "scale": "(BS-16)",
                                         "email": "",
                                         "status": "active",
@@ -67,7 +67,7 @@
     },
     {
         "designation": "Director Mines Labour Welfare",
-        "shortForm": "DMLW",
+        "shortform": "DMLW",
         "scale": "(BS-19)",
         "email": "",
         "status": "active",
@@ -75,7 +75,7 @@
         "subordinates": [
             {
                 "designation": "Deputy Director Admin",
-                "shortForm": "DD(ADMN)",
+                "shortform": "DD(ADMN)",
                 "scale": "(BS-18)",
                 "email": "",
                 "status": "active",
@@ -83,7 +83,7 @@
                 "subordinates": [
                     {
                         "designation": "Statistical Officer",
-                        "shortForm": "S/O",
+                        "shortform": "S/O",
                         "scale": "(BS-17)",
                         "email": "",
                         "status": "active",
@@ -91,7 +91,7 @@
                     },
                     {
                         "designation": "Assistant Director Admin",
-                        "shortForm": "AD(ADMN)",
+                        "shortform": "AD(ADMN)",
                         "scale": "(BS-17)",
                         "email": "",
                         "status": "active",
@@ -99,7 +99,7 @@
                         "subordinates": [
                             {
                                 "designation": "Superintendent-I",
-                                "shortForm": "Suptd-I",
+                                "shortform": "Suptd-I",
                                 "scale": "(BS-17)",
                                 "email": "",
                                 "status": "active",
@@ -107,7 +107,7 @@
                             },
                             {
                                 "designation": "Superintendent-II",
-                                "shortForm": "Suptd-II",
+                                "shortform": "Suptd-II",
                                 "scale": "(BS-17)",
                                 "email": "",
                                 "status": "active",
@@ -119,7 +119,7 @@
             },
             {
                 "designation": "Director Mines Labour Welfare Commissioner",
-                "shortForm": "DMLWC",
+                "shortform": "DMLWC",
                 "scale": "(BS-18)",
                 "email": "",
                 "status": "active",
@@ -127,7 +127,7 @@
                 "subordinates": [
                     {
                         "designation": "Assitant Mines Labour Welfare Commissioner",
-                        "shortForm": "AMLWC",
+                        "shortform": "AMLWC",
                         "scale": "(BS-17)",
                         "email": "",
                         "status": "active",
@@ -135,7 +135,7 @@
                         "subordinates": [
                             {
                                 "designation": "Superintendent",
-                                "shortForm": "Suptd",
+                                "shortform": "Suptd",
                                 "scale": "(BS-17)",
                                 "email": "",
                                 "status": "active",
@@ -145,7 +145,7 @@
                     },
                     {
                         "designation": "Assitant Director Legal",
-                        "shortForm": "AD Legal",
+                        "shortform": "AD Legal",
                         "scale": "(BS-17)",
                         "email": "",
                         "status": "active",
@@ -153,7 +153,7 @@
                     },
                     {
                         "designation": "Assistant Director Mines Labour welfare ",
-                        "shortForm": "ADMLW",
+                        "shortform": "ADMLW",
                         "scale": "(BS-17)",
                         "email": "",
                         "status": "active",
@@ -161,7 +161,7 @@
                         "subordinates": [
                             {
                                 "designation": "Mines Labour Welfare Officer",
-                                "shortForm": "MLWO",
+                                "shortform": "MLWO",
                                 "scale": "(BS-16)",
                                 "email": "",
                                 "status": "active",
@@ -173,7 +173,7 @@
             },
             {
                 "designation": "Deputy Director Education",
-                "shortForm": "DD(Edu)",
+                "shortform": "DD(Edu)",
                 "scale": "(BS-18)",
                 "email": "",
                 "status": "active",
@@ -181,7 +181,7 @@
                 "subordinates": [
                     {
                         "designation": "Assistant Director Information Technology",
-                        "shortForm": "AD(IT)",
+                        "shortform": "AD(IT)",
                         "scale": "(BS-17)",
                         "email": "",
                         "status": "active",
@@ -189,7 +189,7 @@
                         "subordinates": [
                             {
                                 "designation": "Junior Network Administrator",
-                                "shortForm": "NA(Jr)",
+                                "shortform": "NA(Jr)",
                                 "scale": "(BS-16)",
                                 "email": "",
                                 "status": "active",
@@ -203,7 +203,7 @@
         },
         {
             "designation": "Director Works",
-            "shortForm": "DW",
+            "shortform": "DW",
             "scale": "(BS-19)",
             "email": "",
             "status": "active",
@@ -211,7 +211,7 @@
             "subordinates": [
                 {
                     "designation": "Deputy Director Works",
-                    "shortForm": "DD (Works)",
+                    "shortform": "DD (Works)",
                     "scale": "(BS-18)",
                     "email": "",
                     "status": "active",
@@ -219,7 +219,7 @@
                     "subordinates": [
                         {
                             "designation": "Construction Engineer",
-                            "shortForm": "CE",
+                            "shortform": "CE",
                             "scale": "(BS-17)",
                             "email": "",
                             "status": "active",
@@ -227,7 +227,7 @@
                             "subordinates": [
                                 {
                                     "designation": "Senior Sub Engineer",
-                                    "shortForm": "SSE",
+                                    "shortform": "SSE",
                                     "scale": "(BS-16)",
                                     "email": "",
                                     "status": "active",
@@ -237,7 +237,7 @@
                         },
                         {
                             "designation": "Assitant Director Works",
-                            "shortForm": "AD(Works)",
+                            "shortform": "AD(Works)",
                             "scale": "(BS-17)",
                             "email": "",
                             "status": "active",
@@ -245,7 +245,7 @@
                             "subordinates": [
                                 {
                                     "designation": "Superintendent",
-                                    "shortForm": "Supdt",
+                                    "shortform": "Supdt",
                                     "scale": "(BS-17)",
                                     "email": "",
                                     "status": "active",
