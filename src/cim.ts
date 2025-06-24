@@ -136,7 +136,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   document.head.appendChild(style);
 
   try {
-    const res = await fetch('https://mocki.io/v1/3f31645a-6497-4a36-a048-14034b72a933');
+    const res = await fetch('https://mocki.io/v1/835d3808-0cc5-4309-9f61-12ccf71af43b');
     if (!res.ok) throw new Error(`HTTP error! Status: ${res.status}`);
     const rawData = await res.json();
     const data: OrgNode = normalizeKeys(rawData); // normalize before render

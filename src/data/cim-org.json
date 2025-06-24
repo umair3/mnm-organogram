@@ -67,6 +67,14 @@
                     ]
                 },
                 {
+                    "designation": "Office Superintendent",
+                    "shortform": "OS",
+                    "scale": "(BS-18)",
+                    "email": "@gmail.com",
+                    "status": "active",
+                    "posting": "Head Quarters"
+                },
+                {
                     "designation": "Training Officer",
                     "shortform": "TO",
                     "scale": "(BS-18)",
