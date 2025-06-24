@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   document.head.appendChild(style);
 
   try {
-    const res = await fetch('https://mocki.io/v1/22c6dd9c-47bb-43fb-9153-b8580dc50dfa');
+    const res = await fetch('https://mocki.io/v1/5085e1a5-54ed-4200-934c-14fbc03adc03');
     if (!res.ok) throw new Error(`HTTP error! Status: ${res.status}`);
     const rawData = await res.json();
     console.log('Fetched Data:', rawData);

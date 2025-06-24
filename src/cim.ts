@@ -24,18 +24,32 @@ const getStatusColor = (status: string): string => {
   }
 };
 
+// Normalize `shortForm` → `shortform` recursively
+const normalizeKeys = (node: any): OrgNode => {
+  return {
+    ...node,
+    shortform: node.shortForm || node.shortform || '',
+    subordinates: node.subordinates?.map(normalizeKeys) || [],
+  };
+};
+
 const createNode = (node: OrgNode, isRoot: boolean = false): HTMLElement => {
   const box = document.createElement('div');
   box.className = 'node-box';
+
   box.innerHTML = `
     <div class="designation">
-      ${node.prevdesignation ? '<span class="prev-designation">' + node.prevdesignation + '</span> ' : ''}${node.designation}
-      ${' | '}
-      ${node.prevshortform ? '<span class="prev-designation">' + node.prevshortform + '</span> ' : ''}${node.shortform}
+      ${node.prevdesignation ? `<span class="prev-designation">${node.prevdesignation}</span> ` : ''}
+      ${node.designation}
+      |
+      ${node.prevshortform ? `<span class="prev-shortform">${node.prevshortform}</span> → ` : ''}
+      <span class="current-shortform">${node.shortform}</span>
       (${node.scale})
     </div>
     <div class="details">
-      Posting: ${node.posting}, Status: <span class="${getStatusColor(node.status)}"><b>${node.status}</b></span>, Email: ${node.email}
+      Posting: ${node.posting}, 
+      Status: <span class="${getStatusColor(node.status)}"><b>${node.status}</b></span>, 
+      Email: ${node.email}
     </div>
   `;
 
@@ -109,13 +123,23 @@ document.addEventListener('DOMContentLoaded', async () => {
       justify-content: center;
       box-sizing: border-box;
     }
+    .prev-designation, .prev-shortform {
+      text-decoration: line-through;
+      color: #9ca3af;
+      margin-right: 4px;
+    }
+    .current-shortform {
+      font-weight: bold;
+      color: #2563eb;;
+    }
   `;
   document.head.appendChild(style);
 
   try {
     const res = await fetch('https://mocki.io/v1/3f31645a-6497-4a36-a048-14034b72a933');
     if (!res.ok) throw new Error(`HTTP error! Status: ${res.status}`);
-    const data: OrgNode = await res.json();
+    const rawData = await res.json();
+    const data: OrgNode = normalizeKeys(rawData); // normalize before render
 
     const orgContainer = document.createElement('div');
     orgContainer.className = 'org-container';
@@ -126,4 +150,3 @@ document.addEventListener('DOMContentLoaded', async () => {
     console.error('Error loading organogram:', err);
   }
 });
-

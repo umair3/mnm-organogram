@@ -3,7 +3,7 @@
         "designation": "Mines Labour Welfare Commissioner",
         "shortform": "MLWC",
         "scale": "(BS-20)",
-        "email": "",
+        "email": "Commissioner.mlwc@punjab.gov.pk",
         "status": "active",
         "posting": "Head Quarters",
         "subordinates": [
@@ -11,7 +11,7 @@
                 "designation": "Director Finance",
                 "shortform": "DF",
                 "scale": "(BS-19)",
-                "email": "",
+                "email": "dirfin.mlwc@punjab.gov.pk",
                 "status": "active",
                 "posting": "Head Quarters",
                 "subordinates": [
@@ -19,7 +19,7 @@
                         "designation": "Deputy Director Finance",
                         "shortform": "DDF",
                         "scale": "(BS-18)",
-                        "email": "",
+                        "email": "ddfin.mlwc@punjab.gov.pk",
                         "status": "active",
                         "posting": "Head Quarters",
                         "subordinates": [
@@ -27,7 +27,7 @@
                                 "designation": "Accounts Officer",
                                 "shortform": "A/O",
                                 "scale": "(BS-17)",
-                                "email": "",
+                                "email": "ao.mlwc@punjab.gov.pk",
                                 "status": "active",
                                 "posting": "Head Quarters",
                                 "subordinates": [
@@ -35,7 +35,7 @@
                                         "designation": "Assistant Accounts Officer",
                                         "shortform": "AAO",
                                         "scale": "(BS-16)",
-                                        "email": "",
+                                        "email": "@gmail.com",
                                         "status": "active",
                                         "posting": "Head Quarters"
                                     }
@@ -45,7 +45,7 @@
                                 "designation": "Assistant Director Budget",
                                 "shortform": "A.D (Budget)",
                                 "scale": "(BS-17)",
-                                "email": "",
+                                "email": "adbudget.mlwc@punjab.gov.pk",
                                 "status": "active",
                                 "posting": "Head Quarters",
                                 "subordinates": [
@@ -53,7 +53,7 @@
                                         "designation": "Assistant Budget Officer",
                                         "shortform": "ABO",
                                         "scale": "(BS-16)",
-                                        "email": "",
+                                        "email": "@gmail.com",
                                         "status": "active",
                                         "posting": "Head Quarters"
                                     }
@@ -69,7 +69,7 @@
         "designation": "Director Mines Labour Welfare",
         "shortform": "DMLW",
         "scale": "(BS-19)",
-        "email": "",
+        "email": "dirmlw.mlwc@punjab.gov.pk",
         "status": "active",
         "posting": "Head Quarters",
         "subordinates": [
@@ -77,7 +77,7 @@
                 "designation": "Deputy Director Admin",
                 "shortform": "DD(ADMN)",
                 "scale": "(BS-18)",
-                "email": "",
+                "email": "ddadmn.mlwc@punjab.gov.pk",
                 "status": "active",
                 "posting": "Head Quarters",
                 "subordinates": [
@@ -85,7 +85,7 @@
                         "designation": "Statistical Officer",
                         "shortform": "S/O",
                         "scale": "(BS-17)",
-                        "email": "",
+                        "email": "stat.mlwc@punjab.gov.pk",
                         "status": "active",
                         "posting": "Head Quarters"
                     },
@@ -93,7 +93,7 @@
                         "designation": "Assistant Director Admin",
                         "shortform": "AD(ADMN)",
                         "scale": "(BS-17)",
-                        "email": "",
+                        "email": "adadmn.mlwc@punjab.gov.pk",
                         "status": "active",
                         "posting": "Head Quarters",
                         "subordinates": [
@@ -101,7 +101,7 @@
                                 "designation": "Superintendent-I",
                                 "shortform": "Suptd-I",
                                 "scale": "(BS-17)",
-                                "email": "",
+                                "email": "@gmail.com",
                                 "status": "active",
                                 "posting": "Head Quarters"
                             },
@@ -109,7 +109,7 @@
                                 "designation": "Superintendent-II",
                                 "shortform": "Suptd-II",
                                 "scale": "(BS-17)",
-                                "email": "",
+                                "email": "@gmail.com",
                                 "status": "active",
                                 "posting": "Head Quarters"
                             }
@@ -121,7 +121,7 @@
                 "designation": "Director Mines Labour Welfare Commissioner",
                 "shortform": "DMLWC",
                 "scale": "(BS-18)",
-                "email": "",
+                "email": "@gmail.com",
                 "status": "active",
                 "posting": "Head Quarters",
                 "subordinates": [
@@ -129,7 +129,7 @@
                         "designation": "Assitant Mines Labour Welfare Commissioner",
                         "shortform": "AMLWC",
                         "scale": "(BS-17)",
-                        "email": "",
+                        "email": "amlwc.mlwc@punjab.gov.pk",
                         "status": "active",
                         "posting": "Head Quarters",
                         "subordinates": [
@@ -137,7 +137,7 @@
                                 "designation": "Superintendent",
                                 "shortform": "Suptd",
                                 "scale": "(BS-17)",
-                                "email": "",
+                                "email": "@gmail.com",
                                 "status": "active",
                                 "posting": "Head Quarters"
                             }
@@ -147,15 +147,15 @@
                         "designation": "Assitant Director Legal",
                         "shortform": "AD Legal",
                         "scale": "(BS-17)",
-                        "email": "",
+                        "email": "admlw.mlwc@punjab.gov.pk",
                         "status": "active",
                         "posting": "Head Quarters"
                     },
                     {
-                        "designation": "Assistant Director Mines Labour welfare ",
+                        "designation": "Assistant Director Mines Labour welfare",
                         "shortform": "ADMLW",
                         "scale": "(BS-17)",
-                        "email": "",
+                        "email": "@gmail.com",
                         "status": "active",
                         "posting": "Head Quarters",
                         "subordinates": [
@@ -163,7 +163,7 @@
                                 "designation": "Mines Labour Welfare Officer",
                                 "shortform": "MLWO",
                                 "scale": "(BS-16)",
-                                "email": "",
+                                "email": "@gmail.com",
                                 "status": "active",
                                 "posting": "Head Quarters"
                             }
@@ -175,7 +175,7 @@
                 "designation": "Deputy Director Education",
                 "shortform": "DD(Edu)",
                 "scale": "(BS-18)",
-                "email": "",
+                "email": "ddedu.mlwc@punjab.gov.pk",
                 "status": "active",
                 "posting": "Head Quarters",
                 "subordinates": [
@@ -183,7 +183,7 @@
                         "designation": "Assistant Director Information Technology",
                         "shortform": "AD(IT)",
                         "scale": "(BS-17)",
-                        "email": "",
+                        "email": "adit.mlwc@punjab.gov.pk",
                         "status": "active",
                         "posting": "Head Quarters",
                         "subordinates": [
@@ -191,7 +191,7 @@
                                 "designation": "Junior Network Administrator",
                                 "shortform": "NA(Jr)",
                                 "scale": "(BS-16)",
-                                "email": "",
+                                "email": "@gmail.com",
                                 "status": "active",
                                 "posting": "Head Quarters"
                             }
@@ -205,7 +205,7 @@
             "designation": "Director Works",
             "shortform": "DW",
             "scale": "(BS-19)",
-            "email": "",
+            "email": "dirworks.mlwc@punjab.gov.pk",
             "status": "active",
             "posting": "Head Quarters",
             "subordinates": [
@@ -213,7 +213,7 @@
                     "designation": "Deputy Director Works",
                     "shortform": "DD (Works)",
                     "scale": "(BS-18)",
-                    "email": "",
+                    "email": "ddworks.mlwc@punjab.gov.pk",
                     "status": "active",
                     "posting": "Head Quarters",
                     "subordinates": [
@@ -221,7 +221,7 @@
                             "designation": "Construction Engineer",
                             "shortform": "CE",
                             "scale": "(BS-17)",
-                            "email": "",
+                            "email": "ce.mlwc@punjab.gov.pk",
                             "status": "active",
                             "posting": "Head Quarters",
                             "subordinates": [
@@ -229,7 +229,7 @@
                                     "designation": "Senior Sub Engineer",
                                     "shortform": "SSE",
                                     "scale": "(BS-16)",
-                                    "email": "",
+                                    "email": "@gmail.com",
                                     "status": "active",
                                     "posting": "Head Quarters"
                                 }
@@ -239,7 +239,7 @@
                             "designation": "Assitant Director Works",
                             "shortform": "AD(Works)",
                             "scale": "(BS-17)",
-                            "email": "",
+                            "email": "adworks.mlwc@punjab.gov.pk",
                             "status": "active",
                             "posting": "Head Quarters",
                             "subordinates": [
@@ -247,7 +247,7 @@
                                     "designation": "Superintendent",
                                     "shortform": "Supdt",
                                     "scale": "(BS-17)",
-                                    "email": "",
+                                    "email": "@gmail.com",
                                     "status": "active",
                                     "posting": "Head Quarters"
                                 }
