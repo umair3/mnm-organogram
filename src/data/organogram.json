@@ -447,9 +447,9 @@
           "posting": "Head Quarters",
           "subordinates": [
             {
-              "prevdesignation": "Assitant Director (HQ-Auction)",
+              "prevdesignation": "Assistant Director (HQ-Auction)",
               "designation": "Assistant Director Auction Head Quarters ",
-              "previousshortform": "Assitant Director (HQ-Auction)(ASSISTANT DIRECTOR H.Q)",
+              "previousshortform": "Assistant Director (HQ-Auction)(ASSISTANT DIRECTOR H.Q)",
               "shortform": "AD(AUCTION) HQR",
               "scale": "Bs-17",
               "email": "adhq.dgmm@punjab.gov.pk",
@@ -479,9 +479,9 @@
           "posting": "Head Quarters",
           "subordinates": [
             {
-              "prevdesignation": "Assitant Director (HQR)",
+              "prevdesignation": "Assistant Director (HQR)",
               "designation": "Assistant Director Head Quarters",
-              "previousshortform": "ASSITANT DIRECTOR (H.Q.R)(ASSISTANT DIRECTOR H.Q.R)",
+              "previousshortform": "ASSISTANT DIRECTOR (H.Q.R)(ASSISTANT DIRECTOR H.Q.R)",
               "shortform": "AD(HQR)",
               "scale": "Bs-17",
               "email": "adhqr.dgmm@punjab.gov.pk",
@@ -511,9 +511,9 @@
           "posting": "Head Quarters",
           "subordinates": [
             {
-              "prevdesignation": "Assitant Director (HQ-ML1)",
+              "prevdesignation": "Assistant Director (HQ-ML1)",
               "designation": "Assistant Director Mining Lease 1 Head Quarters",
-              "previousshortform": "Assitant Director (HQ-ML1)(ASSITANT DIRECTOR H.Q ML1)",
+              "previousshortform": "Assistant Director (HQ-ML1)(ASSISTANT DIRECTOR H.Q ML1)",
               "shortform": "AD(ML1) HQR",
               "scale": "Bs-17",
               "email": "adhqml1.dgmm@punjab.gov.pk",
@@ -543,9 +543,9 @@
           "posting": "Head Quarters",
           "subordinates": [
             {
-              "prevdesignation": "Assitant Director (HQ-ML2)",
+              "prevdesignation": "Assistant Director (HQ-ML2)",
               "designation": "Assistant Director Mining Lease 2 Head Quarters",
-              "previousshortform": "Assitant Director (HQ-ML2)(ASSITANT DIRECTOR H.Q ML2)",
+              "previousshortform": "Assistant Director (HQ-ML2)(ASSISTANT DIRECTOR H.Q ML2)",
               "shortform": "AD(ML2) HQR",
               "scale": "Bs-17",
               "email": "adhqml2.dgmm@punjab.gov.pk",
@@ -575,7 +575,7 @@
           "posting": "Head Quarters",
           "subordinates": [
             {
-              "prevdesignation": "Assitant Director (HQ-PL)",
+              "prevdesignation": "Assistant Director (HQ-PL)",
               "designation": "Assistant Director Prospecting License Head Quarters",
               "previousshortform": "Assistant Director (HQ-PL)(ASSISTANT DIRECTOR H.Q PL)",
               "shortform": "AD(PL) HQR",
@@ -639,7 +639,7 @@
           "posting": "Chakwal",
           "subordinates": [
             {
-              "prevdesignation": "Assitant Director (CHAKWAL)",
+              "prevdesignation": "Assistant Director (CHAKWAL)",
               "designation": "Assistant Director Chakwal",
               "previousshortform": "ASSISTANT DIRECTOR (CHAKWAL)(ASSISTANT DIRECTOR CHAKWAL)",
               "shortform": "AD(CKL)",
@@ -671,7 +671,7 @@
           "posting": "Mianwali",
           "subordinates": [
             {
-              "prevdesignation": "Assitant Director (Mianwali)",
+              "prevdesignation": "Assistant Director (Mianwali)",
               "designation": "Assistant Director Mianwali",
               "previousshortform": "ASSISTANT DIRECTOR (MIANWALI)(ASSISTANT DIRECTOR MIANWALI)",
               "shortform": "AD(MLI)",
@@ -703,7 +703,7 @@
           "posting": "khushab",
           "subordinates": [
             {
-              "prevdesignation": "Assitant Director (Khushab)",
+              "prevdesignation": "Assistant Director (Khushab)",
               "designation": "Assistant Director Khushab",
               "previousshortform": "ASSISTANT DIRECTOR (KHUSHAB)(ASSISTANT DIRECTOR KHUSHAB)",
               "shortform": "AD(KHB)",

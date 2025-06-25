@@ -126,7 +126,7 @@
                 "posting": "Head Quarters",
                 "subordinates": [
                     {
-                        "designation": "Assitant Mines Labour Welfare Commissioner",
+                        "designation": "Assistant Mines Labour Welfare Commissioner",
                         "shortform": "AMLWC",
                         "scale": "(BS-17)",
                         "email": "amlwc.mlwc@punjab.gov.pk",
@@ -144,7 +144,7 @@
                         ]
                     },
                     {
-                        "designation": "Assitant Director Legal",
+                        "designation": "Assistant Director Legal",
                         "shortform": "AD Legal",
                         "scale": "(BS-17)",
                         "email": "admlw.mlwc@punjab.gov.pk",
@@ -236,7 +236,7 @@
                             ]
                         },
                         {
-                            "designation": "Assitant Director Works",
+                            "designation": "Assistant Director Works",
                             "shortform": "AD(Works)",
                             "scale": "(BS-17)",
                             "email": "adworks.mlwc@punjab.gov.pk",

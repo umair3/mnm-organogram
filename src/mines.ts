@@ -35,8 +35,8 @@ const createNode = (node: OrgNode, isRoot: boolean = false): HTMLElement => {
       ${node.prevshortform ? '<span class="prev-designation">' + node.prevshortform + '</span> ' : ''}${node.shortform}
       ${node.scale}
     </div>
-    <div class="details">
-      Posting: ${node.posting}, Status: <span class="${getStatusColor(node.status)}"><b>${node.status}</b></span>, Email: ${node.email}
+    <div class="details" data-nosnippet>
+      Posting: ${node.posting}, Status: <span class="${getStatusColor(node.status)}"><b>${node.status}</b></span>, <a href="mailto:${node.email}">${node.email}</a>
     </div>
   `;
 
@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   document.head.appendChild(style);
 
   try {
-    const res = await fetch('https://mocki.io/v1/22c6dd9c-47bb-43fb-9153-b8580dc50dfa');
+    const res = await fetch('https://mocki.io/v1/d38c2376-15f8-4788-84fc-12ea9b88bdd7');
     if (!res.ok) throw new Error(`HTTP error! Status: ${res.status}`);
     const rawData = await res.json();
 
