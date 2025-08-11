@@ -1,5 +1,5 @@
 {
-  "prevdesignation": "Raja Mansoor Ahmad",
+  "prevdesignation": "",
   "designation": "Director General Mines & Minerals",
   "prevshortform": "(DG Mines, Mines & Minerals)",
   "shortform": "DGMM",
@@ -7,6 +7,7 @@
   "email": "director.general@mnm.punjab.gov.pk",
   "status": "update",
   "posting": "Head Quarters",
+  "office_no": "+92-42-99212724-5",
   "subordinates": [
     {
       "prevdesignation": "PA TO DG MNM (DG Mines,Mines & Minerals)",
@@ -16,7 +17,8 @@
       "scale": "BS-16",
       "email": "padgmm@punjab.gov.pk",
       "status": "update",
-      "posting": "Head Quarters"
+      "posting": "Head Quarters",
+      "office_no": "+92-42-99214852"
     },
     {
       "designation": "Receipt and Issue Branch Director General,Mines and Minerals",
@@ -35,6 +37,7 @@
       "email": "ddlsm.dgmm@punjab.gov.pk",
       "status": "update",
       "posting": "Head Quarters",
+      "office_no": "+92-42-99213316",
       "subordinates": [
         {
           "prevdesignation": "Assistant Director(EL)",
@@ -56,7 +59,9 @@
             }
           ]
         }
-      ]
+      
+    ]
+  
     },
     {
       "prevdesignation": "Assistant Director (Appeals)",
@@ -67,6 +72,7 @@
       "email": "adapp.dgmm@punjab.gov.pk",
       "status": "update",
       "posting": "Head Quarters",
+      "office_no": "+92-42-99214857",
       "subordinates": [
         {
           "designation": "Superintendent Appeals",
@@ -203,7 +209,8 @@
           "scale": "Bs-17",
           "email": "aemech.dgmm@punjab.gov.pk",
           "status": "update",
-          "posting": "Head Quarters"
+          "posting": "Head Quarters",
+          "office_no": "+92-42-99213316"
         },
          {
           "prevdesignation": "Assistant Engineer (Electrical)",
@@ -236,6 +243,7 @@
           "email": "manager.gis@punjab.gov.pk",
           "status": "update",
           "posting": "Head Quarters",
+          "office_no": "+92-42-99214855",
           "subordinates": [
             
             {
@@ -308,6 +316,7 @@
       "email": "director.isp@punjab.gov.pk",
       "status": "update",
       "posting": "Head Quarters",
+      "office_no": ["+92-42-99212740","+92-42-99214851"],
       "subordinates": [
         {
           "prevdesignation": "Manager (I.T)",
@@ -383,7 +392,8 @@
               "scale": "Bs-17",
               "email": "lib.dgmm@punjab.gov.pk",
               "status": "update",
-              "posting": "Head Quarters"
+              "posting": "Head Quarters",
+              "office_no": "+92-42-37590511"
             }
           ]
         }
@@ -397,6 +407,7 @@
       "email": "director.sma@punjab.gov.pk",
       "status": "update",
       "posting": "Head Quarters",
+      "office_no": ["+92-42-99214854","+92-42-99212739"],
       "subordinates": [
         {
           "designation": "Personal Assistant to Director Small Mines Assistance / Titles | PA TO LA Small Scale Mining",
@@ -462,7 +473,8 @@
                   "scale": "Bs-17",
                   "email": "@punjab.gov.pk",
                   "status": "create",
-                  "posting": "Head Quarters"
+                  "posting": "Head Quarters",
+                  "office_no": "+92-42-99213312"
                 }
               ]
             }
@@ -637,6 +649,8 @@
           "email": "ddchk.dgmm@punjab.gov.pk",
           "status": "update",
           "posting": "Chakwal",
+          "office_no": "+92-42-0543/660019",
+          "office_address": "District Complex, Ghaziabad, Chakwal.",
           "subordinates": [
             {
               "prevdesignation": "Assistant Director (CHAKWAL)",
@@ -669,6 +683,8 @@
           "email": "ddmw.dgmm@punjab.gov.pk",
           "status": "update",
           "posting": "Mianwali",
+          "office_no": "+92-42-0459/332614",
+          "office_address": "Opposite Beruli Railway Station, Kalabagh Road, Mianwali.",
           "subordinates": [
             {
               "prevdesignation": "Assistant Director (Mianwali)",
@@ -701,6 +717,8 @@
           "email": "ddkhb.dgmm@punjab.gov.pk",
           "status": "update",
           "posting": "khushab",
+          "office_no": "+92-42-0454/720375",
+          "office_address": "Block no.7 near Circut House, Joharabad, District Khushab.",
           "subordinates": [
             {
               "prevdesignation": "Assistant Director (Khushab)",
@@ -745,6 +763,7 @@
       "email": "diradmn.dgmm@punjab.gov.pk",
       "status": "update",
       "posting": "Head Quarters",
+      "office_no": "+92-42-99211541",
       "subordinates": [
         {
           "prevdesignation": "Deputy Director (Admin)",
@@ -755,6 +774,7 @@
           "email": "ddadmn.dgmm@punjab.gov.pk",
           "status": "update",
           "posting": "Head Quarters",
+          "office_no":  "+92-42-9914851",
           "subordinates": [
             {
               "prevdesignation": "Assistant Director (Admin)",
@@ -848,6 +868,7 @@
       "email": "director.efid@punjab.gov.pk",
       "status": "update",
       "posting": "Head Quarters",
+      "office_no": "+92-42-99214853",
       "subordinates": [
         {
           "prevdesignation": "Manager(E&F)",
@@ -910,6 +931,7 @@
               "email": "admm.dgmm@punjab.gov.pk",
               "status": "update",
               "posting": "Head Quarters",
+              "office_no": "+92-42-99213311",
               "subordinates": [
                 {
                   "designation": "Superintendent Minor and Minerals Head Quarter",
@@ -975,6 +997,8 @@
           "email": "ddmlt.dgmm@punjab.gov.pk",
           "status": "update",
           "posting": "Multan",
+          "office_no": "+92-61-9330216",
+          "office_address": "903-D-11, St. #2, Mehmooda Abad Colony Khanewal Road, Multan.",
           "subordinates": [
             {
               "prevdesignation": "Assistant Director (Multan)",
@@ -996,6 +1020,8 @@
               "email": "adbwp.dgmm@punjab.gov.pk",
               "status": "update",
               "posting": "Bahawalpur",
+              "office_no": "+92-62-9330079",
+              "office_address": "House No.9, Makhdoom Abad, Shadab Colony Road, Bahawalpur.",
               "subordinates": []
             }
           ]
@@ -1009,6 +1035,8 @@
           "email": "ddrwp.dgmm@punjab.gov.pk",
           "status": "update",
           "posting": "Rawalpindi",
+          "office_no": "+92-51-4859114",
+          "office_address": "Mahria Palace, near Fazaia Inter College (Jinnah Camp), A1-Noor Colony,Jahabaz Ground Stop, Sector 01, Street No.1 1st Floor Khanna Road, Rawalpindi",
           "subordinates": [
             {
               "prevdesignation": "Assistant Director (Rawalpindi)",
@@ -1071,6 +1099,8 @@
           "email": "adjlm.dgmm@punjab.gov.pk",
           "status": "update",
           "posting": "Jhelum",
+          "office_no": "+92-544-276489",
+          "office_address": "Sahil Colony HA-1, near Moon 1st Marriage Hall Polra Ghaib Jhelum.", 
           "subordinates": [
             {
               "designation": "Assistant Jhelum",
@@ -1091,6 +1121,8 @@
           "email": "ddsgd.dgmm@punjab.gov.pk",
           "status": "update",
           "posting": "Sargodha",
+          "office_no": "+92-48-9230221",
+          "office_address": "Complex, Canal Road, opposite Yousaf Park, Sargodha.",
           "subordinates": [
             {
               "prevdesignation": "Assistant Director (Sargodha)",
@@ -1131,6 +1163,8 @@
               "email": "adcnt.dgmm@punjab.gov.pk",
               "status": "update",
               "posting": "Chiniot",
+              "office_no": "+92-476-332292",
+              "office_address": "W-3/29 Chowk Shah Jehan, Satellite Town, Chiniot.",
               "subordinates": [
                 {
                   "designation": "Assistant Chiniot",
@@ -1153,6 +1187,8 @@
           "email": "ddgrw.dgmm@punjab.gov.pk",
           "status": "update",
           "posting": "Gujranwala",
+          "office_no": "+92-55-9330582",
+          "office_address": "7-B Model Town, near Genral Bus Stand, Gujranwala.",
           "subordinates": [
             {
               "prevdesignation": "Assistant Director (Gujranwala)",
@@ -1205,6 +1241,8 @@
           "email": "ddlhr.dgmm@punjab.gov.pk",
           "status": "update",
           "posting": "Lahore",
+          "office_no": "+92-42-35974590",
+          "office_address": "Poonch House, Multan Road, Lahore.",
           "subordinates": [
             {
               "prevdesignation": "Assistant Director(Lahore)",
@@ -1245,6 +1283,8 @@
               "email": "adswl.dgmm@punjab.gov.pk",
               "status": "update",
               "posting": "Sahiwal",
+              "office_no": "+92-40-99330011",
+              "office_address": "A1-Saeed Town, Noor Shah Road, Near Qureshi Hospital, Opposite Mall, Mandi, Sahiwal",
               "subordinates": [
                 {
                   "designation": "Assistant Sahiwal",
